@@ -29,11 +29,9 @@ const FoundationSectionFour = () => {
                   <div className="foundation-content style-2 mb-60">
                      <div className="section-title">
                         <span className="section-subtitle">since from 2000</span>
-                        <h2 className="section-main-title mb-20">Gardeny offers a full-service</h2>
+                        <h2 className="section-main-title mb-20">Full-SERVICE Grass Care</h2>
                      </div>
-                     <p>Most gardens consist of a mix of natural and constructed elements, although
-                        even very natural gardens are always an inherently artificial creation. Natural
-                        elements present in a garden principally. </p>
+                     <p>Experience the convenience and peace of mind that full-service lawn care brings. Spend more time loving your green spaces leaving the worry to us.</p>
                      <div className="founder-meta mt-45">
                         <div className="founder-info-meta">
                            <div className="founder-img">

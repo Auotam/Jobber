@@ -5,7 +5,7 @@ import HomeMain from '../components/home';
 const index = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={'Home Default'} />
+      <SEO pageTitle={'CPB'} />
       <HomeMain />
     </Wrapper>
   );

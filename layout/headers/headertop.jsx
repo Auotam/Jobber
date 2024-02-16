@@ -12,7 +12,7 @@ const HeaderTop = () => {
                                     <i className="fas fa-phone"></i>
                                 </div>
                                 <div className="meta-item-text">
-                                    <p><a href="tel:78989700098">789 897 000 98</a></p>
+                                    <p><a href="tel:78989700098">1800-000-0000</a></p>
                                 </div>
                             </div>
                             <div className="meta-item">
@@ -20,7 +20,7 @@ const HeaderTop = () => {
                                     <i className="fas fa-envelope-open"></i>
                                 </div>
                                 <div className="meta-item-text">
-                                    <p><a href="mailto:info@gardomia.com">info@gardomia.com</a></p>
+                                    <p><a href="mailto:info@Clay Pot Botanical.com">info@claypot.com</a></p>
                                 </div>
                             </div>
                         </div>

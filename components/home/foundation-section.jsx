@@ -11,7 +11,7 @@ const FoundationSection = () => {
                 <div className="row align-items-center wow fadeInUp" data-wow-delay=".3s">
                     <div className="col-lg-6">
                         <div className="foundation-img mb-60">
-                            <img src="/assets/img/about/foundation.jpg" alt="img"/>
+                            <img src="/assets/img/about/foundation.jpeg" alt="img"/>
                         </div>
                     </div>
                     <div className="col-lg-6">

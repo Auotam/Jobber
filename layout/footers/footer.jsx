@@ -25,8 +25,8 @@ const FooterOne = () => {
                                             <i className="fas fa-phone-alt"></i>
                                         </div>
                                         <div className="irc-item-content">
-                                            <p>Emergency Call</p>
-                                            <div className="support-number"><a href="tel:98965963168">989 659 631 68</a></div>
+                                            <p>Get in Touch</p>
+                                            <div className="support-number"><a href="tel:98965963168">1800-000-0000</a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -41,8 +41,8 @@ const FooterOne = () => {
                                     <li><Link href="/"><a>Home</a></Link></li>
                                     <li><Link href="/about"><a>about</a></Link></li>
                                     <li><Link href="/services"><a>services</a></Link></li>
-                                    <li><Link href="/blog"><a>news</a></Link></li>
-                                    <li><Link href="/team"><a>Team</a></Link></li>
+                                    <li><Link href="/portfolia"><a>Portfolia</a></Link></li>
+                                    <li><Link href="/contact"><a>Contact</a></Link></li>
                                 </ul>
                                 <ul>
                                     <li><Link href="/contact"><a>refund policy</a></Link></li>
@@ -58,11 +58,11 @@ const FooterOne = () => {
                                     <h4>our services</h4>
                                 </div>
                                 <ul>
-                                    <li><Link href="/services"><a>Lawn Moving</a></Link></li>
-                                    <li><Link href="/services"><a>Hedge Cutting</a></Link></li>
-                                    <li><Link href="/services"><a>Flower Planting</a></Link></li>
-                                    <li><Link href="/services"><a>Garden Remodeling</a></Link></li>
-                                    <li><Link href="/services"><a>Garden Restoration</a></Link></li>
+                                    <li><Link href="/services"><a>Residential Lawn Care</a></Link></li>
+                                    <li><Link href="/services"><a>Commercial Mowing</a></Link></li>
+                                    <li><Link href="/services"><a>Vegetation Control</a></Link></li>
+                                    <li><Link href="/services"><a>Edible Garden Installation</a></Link></li>
+                                    
                                 </ul>
                             </div>
                         </div>
@@ -123,12 +123,12 @@ const FooterOne = () => {
                         <div className="row align-items-center">
                             <div className="col-lg-3 col-md-4">
                                 <div className="footer-logo">
-                                    <Link href="/"><a><img src="/assets/img/logo/logo-w.png" alt="" /></a></Link>
+                                    <Link href="/"><a><img src="/assets/img/logo/logo-footer.svg" alt="" /></a></Link>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-6">
                                 <div className="copyright-text copyright1-text">
-                                    Copyright & Design By <a href="https://themeforest.net/user/bdevs/portfolio">@BDevs</a> - 2022
+                                    Copyright & Design By <a href="https://www.auotam..com">Auotam</a> - 2024
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-2">

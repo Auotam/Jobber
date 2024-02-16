@@ -20,7 +20,7 @@ const HeaderTopFour = () => {
                                     <i className="fas fa-envelope-open"></i>
                                 </div>
                                 <div className="meta-item-text">
-                                    <p><a href="mailto:info@gardomia.com">info@gardomia.com</a></p>
+                                    <p><a href="mailto:info@Clay Pot Botanical.com">info@Clay Pot Botanical.com</a></p>
                                 </div>
                             </div>
                         </div>

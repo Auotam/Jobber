@@ -1,43 +1,76 @@
 const ServicesList = [
     {
         id:1,
-        serviceImg:'/assets/img/service/service-img-st2-1.jpg',
+        serviceImg:'/assets/img/service/service-img-st2-1.jpeg',
         serviceIcon:'flaticon-gardening-1',
-        serviceTitle:'landscaping',
+        serviceTitle:'Residential',
         serviceBadge:'',
         serviceDesc:'Get expert advice on how to design a garden.',
+
+        paraone : {
+            para1: {
+                title: "Residential Lawn Maintenance:",
+                content: 'Elevate your home s curb appeal and environmental health with our indispensable residential lawn maintenance service. Our meticulous approach to expert mowing, edging, and fertilization is not just about aesthetics; its a fundamental investment in the overall well-being of your property. Ensure your outdoor space becomes a thriving and sustainable haven for your family, highlighting the importance of regular care for both visual and environmental benefits.',
+               
+            },
+            para2: {
+                title: "Tree & Shrub Care",
+                content: ' Safeguard the long-term vitality of your property with our essential residential tree and shrub care service. Beyond enhancing the visual allure, our technicians provide critical care, including expert pruning, fertilization, and pest control, preserving your valuable green assets health and structural integrity. Recognize the necessity of proactive tree and shrub care to protect your propertys natural beauty and ecological balance.',
+            },
+            para3: {
+                title: "Garden Planning and Installation",
+                content: ': Transform your outdoor living space into a vital and personalized sanctuary with our indispensable residential garden planning and installation service. Our collaborative approach, from meticulous design to skilled implementation, ensures a tailored garden that complements your aesthetic preferences and contributes to the ecological diversity of your surroundings'
+        
+            }
+        }
 
     },
     {
         id:2,
-        serviceImg:'/assets/img/service/service-img-st2-2.jpg',
+        serviceImg:'/assets/img/service/service-img-st2-2.jpeg',
         serviceIcon:'flaticon-house',
-        serviceTitle:'Urban',
+        serviceTitle:'Commercial',
         serviceBadge:'',
         serviceDesc:'Plants are expensive and need to be looked after.',
+        paraone : {
+            para1: {
+                title: "Commercial Lawn Maintenance",
+                content: 'A professionally maintained lawn not only enhances the visual appeal of a commercial property but also reflects a commitment to a well-kept environment. Regular lawn maintenance ensures a neat and organized appearance, creating a positive first impression for clients, visitors, and employees. Beyond aesthetics, proper care contributes to the overall health of the landscape, fostering a conducive and inviting atmosphere that can positively impact the success of a business.',
+               
+            },
+            para2: {
+                title: "Roadside Mowing",
+                content: 'Roadside mowing services are essential for maintaining safety and aesthetics along public thoroughfares. Regular trimming of vegetation not only enhances visibility for drivers but also reduces fire hazards and minimizes the potential for overgrowth-related accidents. Additionally, a well-manicured roadside landscape contributes to the overall beauty of a community, making it a necessary service for municipalities, businesses, and organizations invested in public safety and visual appeal.',
+            },
+            para3: {
+                title: "Vegetation and Debris Removal",
+                content: ' Professional vegetation and debris removal services are crucial for maintaining the cleanliness, safety, and functionality of various spaces. Removing overgrown vegetation and debris reduces fire risks, prevents pest infestations, and ensures the safety of both pedestrians and property. This service is particularly vital for businesses, municipalities, and property owners looking to uphold high standards of safety, cleanliness, and overall environmental stewardship.'
+        
+            }
+        }
 
     },
     {
         id:3,
-        serviceImg:'/assets/img/service/service-img-st2-3.jpg',
+        serviceImg:'/assets/img/service/service-img-st2-3.jpeg',
         serviceIcon:'flaticon-farming-and-gardening',
-        serviceTitle:'Maintenance',
+        serviceTitle:'Vegetation Control',
         serviceBadge:'',
         serviceDesc:'Keep your green garden low maintenance.',
 
     },
     {
         id:4,
-        serviceImg:'/assets/img/service/service-img-st2-4.jpg',
+        serviceImg:'/assets/img/service/service-img-st2-4.jpeg',
         serviceIcon:'flaticon-flower-with-rounded-petals',
-        serviceTitle:'Events',
+        serviceTitle:'Edible Garden Installation',
         serviceBadge:'',
         serviceDesc:'We at The Gardeny are proud to offer',
     },
     //home one service end
     {
         id:5,
-        serviceImg:'/assets/img/service/service-img-st2-1.jpg',
+        serviceImg:'/assets/img/service/service-img-st2-1.jpeg',
         serviceIcon:'/assets/img/icon/s-icon1.png',
         serviceTitle:'Garden landscaping',
         serviceBadge:'',

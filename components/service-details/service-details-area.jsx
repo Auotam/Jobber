@@ -37,35 +37,18 @@ const ServiceDetailsArea = ({ item }) => {
                                 <div className="service-image">
                                     <img src="/assets/img/service/service-img1.jpg" alt="" />
                                 </div>
-                                <h3 className="mb-15">{item.serviceTitle}</h3>
-                                <p className="mb-15">Still not convinced that gaming is good for you? That’s understandable,
-                                    considering concerns
-                                    long raised by parents that
-                                    include
-                                    the treatment of women social gaming, violence in games and gaming addiction. For more
-                                    information, explore the Safer
-                                    Gaming
-                                    Guide from the Family Online Safety Institute. The absolute best recommendation for parents
-                                    worried about game safety or
-                                    that
-                                    your kid is gaming too much: Join your kids on their favorite platform.</p>
-                                <p className="mb-45">With us you can purchase clinical, dental, and vision protection plans for
-                                    everybody in your
-                                    family. As a confided in
-                                    supplier, HR
-                                    empowers you to get the wellbeing inclusion you need at a sensible cost, with in excess of
-                                    13,000 choices from 180+
-                                    transporters.
-                                    With us free and simple to-utilize plan locaters and correlation apparatuses, you can discover
-                                    the medical coverage plan
-                                    that best
-                                    suits your spending plan and needs. When you apply, deals with your application beginning to
-                                    end, upholding for your old
-                                    benefit to
-                                    guarantee your wellbeing inclusions are allowed immediately. Get a health care coverage quote
-                                    today and give your family
-                                    the
-                                    consideration they merit.</p>
+                                <h3 className="mb-15">{item.paraone && item.paraone.para1 && item.paraone.para1.title}</h3>
+                                 <p className="mb-15">{item.paraone && item.paraone.para1 && item.paraone.para1.content}</p>
+                                
+
+                                 <h3 className="mb-15">{item.paraone && item.paraone.para2 && item.paraone.para2.title}</h3>
+                                 <p className="mb-15">{item.paraone && item.paraone.para2 && item.paraone.para2.content}</p>
+                                
+
+                                 <h3 className="mb-15">{item.paraone && item.paraone.para3 && item.paraone.para3.title}</h3>
+                                 <p className="mb-15">{item.paraone && item.paraone.para3 && item.paraone.para3.content}</p>
+                                
+                                
                                 <h3 className="mb-25">how we works</h3>
                                 <div className="how-works-wrapper">
                                     <div className="working-steps">

@@ -12,23 +12,24 @@ const HeroSlider = () => {
         {
             id: 1,
             sliderBg: '/assets/img/banner/banner-1-1.jpg',
-            sliderSubtitle: 'Provides hassle-free backyard transformations',
-            sliderTitle: 'make dream gardening',
+            
+            sliderTitle: 'Hassle-Free Lawn Care',
+            sliderSubtitle: 'Simple,Stunning Yours.',
             sliderbtn: 'request an estimate',
             sliderbtn2: 'About Us',
         },
         {
             id: 2,
-            sliderBg: '/assets/img/banner/banner-2-1.jpg',
-            sliderSubtitle: 'Provides hassle-free backyard transformations',
+            sliderBg: '/assets/img/banner/banner-2-1.jpeg',
+            sliderSubtitle: 'Simple,Stunning Yours.',
             sliderTitle: 'Jik Flower Scaping',
             sliderbtn: 'request an estimate',
             sliderbtn2: 'About Us',
         },
         {
             id: 3,
-            sliderBg: '/assets/img/banner/banner-4-1.jpg',
-            sliderSubtitle: 'Provides hassle-free backyard transformations',
+            sliderBg: '/assets/img/banner/banner-4-1.jpg    ',
+            sliderSubtitle: 'Simple,Stunning Yours.',
             sliderTitle: 'k.i Flower plants',
             sliderbtn: 'request an estimate',
             sliderbtn2: 'About Us',
@@ -88,10 +89,11 @@ const HeroSlider = () => {
                                                 <div className="row align-items-center">
                                                     <div className="col-lg-8 col-md-10">
                                                         <div className="banner-content banner-content1 banner-content1-1 pt-0">
+                                                            
+                                                            <h1 className="banner-title" data-animation="fadeInUp" data-delay=".5s">{item.sliderTitle}</h1>
                                                             <div className="banner-meta-text" data-animation="fadeInUp" data-delay=".3s">
                                                                 <span>{item.sliderSubtitle}</span>
                                                             </div>
-                                                            <h1 className="banner-title" data-animation="fadeInUp" data-delay=".5s">{item.sliderTitle}</h1>
                                                             <div className="banner-btn" data-animation="fadeInUp" data-delay=".7s">
                                                                 <Link href="/contact"><a className="fill-btn-rounded">{item.sliderbtn}</a></Link>
                                                                 <Link href="/about"><a className="border-btn-rounded">{item.sliderbtn2}</a></Link>

@@ -36,7 +36,7 @@ const PortfolioSectionFour = () => {
                             </div>
                         </div>
                     </div>
-                    {portfolioList &&
+                    {/* {portfolioList &&
                         <div className="portfolio-wrapper portfolio-hover-items-wrapper style-4 wow fadeInUp" data-wow-delay=".3s">
                             <span className="portfolio-shape-1"></span>
                             <i className="flaticon-gardening-1 portfolio-shape-2"></i>
@@ -60,7 +60,7 @@ const PortfolioSectionFour = () => {
                                 </div>
                             ))}
                         </div>
-                    }
+                    } */}
                     <div className="portfolio-btn style-4 mt-40 mb-30 text-center wow fadeInUp" data-wow-delay=".3s">
                         <Link href="/portfolio"><a className="fill-btn">Load More<i className="fal fa-plus"></i></a></Link>
                     </div>

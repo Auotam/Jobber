@@ -56,7 +56,7 @@ const FactSection = () => {
                                     <div className={item.factPlant}>
                                         <div className="fact-content">
                                             <span className="fact-title">{item.factTitle}</span>
-                                            <span className="fact-number counter"><Counter number={item.factNumber} text={'hello'} /></span>
+                                            <span className="fact-number counter"><Counter number={item.factNumber} text={''} /></span>
                                             <div className="fact-icon">
                                                 <img src={item.factIcon} alt=""/>
                                             </div>

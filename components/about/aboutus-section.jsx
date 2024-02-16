@@ -8,7 +8,7 @@ const AboutUsSection = () => {
                 <div className="row align-items-center wow fadeInUp" data-wow-delay=".3s">
                     <div className="col-lg-6">
                         <div className="about-thumb mb-30">
-                            <img src="/assets/img/about/about-thumb.jpg" alt=""/>
+                            <img src="/assets/img/about/about-thumb.jpeg" alt=""/>
                             <div className="about-thumb-meta">
                                 <p>since from 2000</p>
                             </div>

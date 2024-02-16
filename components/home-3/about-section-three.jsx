@@ -29,7 +29,7 @@ const AboutSectionThree = () => {
                                             <div className="service-tab-content">
                                                 <div className="section-title style-3">
                                                     <span className="section-subtitle">get service</span>
-                                                    <h2 className="section-main-title mb-20">Gardomia offers a full-service</h2>
+                                                    <h2 className="section-main-title mb-20">Clay Pot Botanical offers a full-service</h2>
                                                 </div>
                                                 <p>Gardens consist of a mix of natural and constructed elements, although
                                                     even very natural garden are always inherently artificial creation. Natural
@@ -60,7 +60,7 @@ const AboutSectionThree = () => {
                                             <div className="service-tab-content">
                                                 <div className="section-title style-3">
                                                     <span className="section-subtitle">get service</span>
-                                                    <h2 className="section-main-title mb-20">Gardomia offers a full-service</h2>
+                                                    <h2 className="section-main-title mb-20">Clay Pot Botanical offers a full-service</h2>
                                                 </div>
                                                 <p>Gardens consist of a mix of natural and constructed elements, although
                                                     even very natural garden are always inherently artificial creation. Natural

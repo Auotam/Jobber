@@ -31,7 +31,7 @@ const HeroSliderThree = () => {
             id: 3,
             sliderBg: '/assets/img/banner/banner-1-1-dark.jpg',
             sliderSubtitle: 'since from 2000',
-            sliderTitle: 'make dream gardening',
+            sliderTitle: 'Hassle-Free Lawn Care',
             sliderbtn: 'Get estimate',
         }
     ];

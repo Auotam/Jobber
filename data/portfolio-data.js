@@ -1,21 +1,21 @@
 const portfolioList = [
     {
         id:1,
-        portfolioImg:'/assets/img/portfolio/portfolio-630_450-1.jpg',
-        portfolioTag:'gardening',
+        portfolioImg:'/assets/img/portfolio/portfolio-630_450-1.jpeg',
+        portfolioTag:'',
         portfolioBudget:'$20k budget',
-        portfolioTitle:'Hasu House Garden & Barbecue',
+        portfolioTitle:'No Dig No-Till Beds',
     },
     {
         id:2,
         portfolioImg:'/assets/img/portfolio/portfolio-630_450-3.jpg',
-        portfolioTag:'landscape',
+        portfolioTag:'',
         portfolioBudget:'$14k budget',
-        portfolioTitle:'Foliage as an Asset in the Garden',
+        portfolioTitle:'Raised Beds',
     },
     {
         id:3,
-        portfolioImg:'/assets/img/portfolio/portfolio-630_450-1.jpg',
+        portfolioImg:'/assets/img/portfolio/portfolio-630_450-2.jpeg',
         portfolioTag:'gardening',
         portfolioBudget:'$20k budget',
         portfolioTitle:'lawn and garden maintenance',

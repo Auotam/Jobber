@@ -82,7 +82,7 @@ const ShopDetailsArea = ({ item }) => {
                                     <span className="price-now">${item.price}</span>
                                 </div>
 
-                                <p className="mb-30">Gardomia has brought to you 3 Pieces Combo Pack PS23 garden solution. It is a
+                                <p className="mb-30">Clay Pot Botanical has brought to you 3 Pieces Combo Pack PS23 garden solution. It is a
                                     completely modern product and you feel comfortable to put on your garden.
                                     Buy it at the best price.</p>
                                 <div className="product-quantity-cart mb-30">

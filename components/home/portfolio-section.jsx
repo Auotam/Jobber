@@ -19,24 +19,7 @@ const PortfolioSection = () => {
                   </div>
                </div>
                <div className="col-lg-6">
-                  <div className="portfolio-tab-nav style-2 mb-50">
-                     <nav>
-                        <div className="nav nav-tabs" id="nav-tab" role="tablist">
-                           <button className="nav-link active" id="nav-1-tab" data-bs-toggle="tab" data-bs-target="#nav-1"
-                              type="button" role="tab" aria-controls="nav-1" aria-selected="true">all</button>
-                           <button className="nav-link" id="nav-2-tab" data-bs-toggle="tab" data-bs-target="#nav-2"
-                              type="button" role="tab" aria-controls="nav-2" aria-selected="false">Events</button>
-                           <button className="nav-link" id="nav-3-tab" data-bs-toggle="tab" data-bs-target="#nav-3"
-                              type="button" role="tab" aria-controls="nav-3" aria-selected="false">Gardens</button>
-                           <button className="nav-link" id="nav-4-tab" data-bs-toggle="tab" data-bs-target="#nav-4"
-                              type="button" role="tab" aria-controls="nav-4" aria-selected="false">Interiors</button>
-                           <button className="nav-link" id="nav-5-tab" data-bs-toggle="tab" data-bs-target="#nav-5"
-                              type="button" role="tab" aria-controls="nav-5" aria-selected="false">Maintance</button>
-                           <button className="nav-link" id="nav-6-tab" data-bs-toggle="tab" data-bs-target="#nav-6"
-                              type="button" role="tab" aria-controls="nav-6" aria-selected="false">Urban</button>
-                        </div>
-                     </nav>
-                  </div>
+                  
                </div>
             </div>
             <div className="row wow fadeInUp" data-wow-delay=".3s">

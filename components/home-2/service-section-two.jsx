@@ -42,7 +42,7 @@ const ServiceSectionTwo = () => {
                     <div className="service-action-bg-shape">
                         <img src="/assets/img/shape/pattern-1270.png" alt="" />
                     </div>
-                    <h3><i className="flaticon-house"></i>Provides Hassle-Free Backyard Transformations with Artistic Solutions.</h3>
+                    <h3><i className="flaticon-house"></i>Give Your Lawn the vip Treatment.</h3>
                     <Link href="/contact"><a className="fill-btn-rounded"><i className="fal fa-farm"></i><span>Get a Quote</span></a></Link>
                 </div>
             </div>

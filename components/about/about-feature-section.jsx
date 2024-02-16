@@ -11,8 +11,7 @@ const AboutFeatureSection = () => {
                             <div className="single-strategy mb-30">
                                 <div className="st-hover">
                                     <div className="st-h-content" style={{ background: "url(/assets/img/bg/st-h-bg.jpg)" }}>
-                                        <p>Gardening is the practice of growing and cultivating plants as part of
-                                            horticulture. In gardens, ornamental plants are often grown.</p>
+                                        <p>At CPB, we provied top-notch lawn care for vibrant commercial and residential lanscapes with enviromental landscapes with environmental sustainability, professionalism, and attention to detail.</p>
                                     </div>
                                     <div className="st-h-btn">
                                         <Link href="/contact"><a className="fill-btn">get in touch<i className="fal fa-angle-right"></i></a></Link>
@@ -29,8 +28,7 @@ const AboutFeatureSection = () => {
                             <div className="single-strategy mb-30">
                                 <div className="st-hover">
                                     <div className="st-h-content" style={{ background: "url(/assets/img/bg/st-h-bg.jpg)" }}>
-                                        <p>Gardening is the practice of growing and cultivating plants as part of
-                                            horticulture. In gardens, ornamental plants are often grown.</p>
+                                        <p>Crafting rich spaces for lasting memories.</p>
                                     </div>
                                     <div className="st-h-btn">
                                         <Link href="/contact"><a className="fill-btn">get in touch<i className="fal fa-angle-right"></i></a></Link>
@@ -47,8 +45,7 @@ const AboutFeatureSection = () => {
                             <div className="single-strategy mb-30">
                                 <div className="st-hover">
                                     <div className="st-h-content" style={{ background: "url(/assets/img/bg/st-h-bg.jpg)" }}>
-                                        <p>Gardening is the practice of growing and cultivating plants as part of
-                                            horticulture. In gardens, ornamental plants are often grown.</p>
+                                        <p>Integrating expertise, sustainable methods, and personalized attention, that wow and contribute to community well-being.</p>
                                     </div>
                                     <div className="st-h-btn">
                                         <Link href="/contact"><a className="fill-btn">get in touch<i className="fal fa-angle-right"></i></a></Link>
