@@ -41,7 +41,7 @@ const HeaderOne = () => {
                                     <div className="header-main-left header-main-left-header1">
                                         <div className="header-logo header1-logo">
                                             <Link href="/"><a className="logo-bl"><img src="/assets/img/logo/logo-w-nbg.svg"
-                                                alt="logo-img" /></a></Link>
+                                                alt="logo-imgnew" /></a></Link>
                                         </div>
                                         <div className="main-menu main-menu1 d-none d-xl-block">
                                             <nav id="mobile-menu">
