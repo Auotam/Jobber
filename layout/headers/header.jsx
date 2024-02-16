@@ -40,7 +40,7 @@ const HeaderOne = () => {
                                 <div className="header-main-content-wrapper">
                                     <div className="header-main-left header-main-left-header1">
                                         <div className="header-logo header1-logo">
-                                            <Link href="/"><a className="logo-bl"><img src="/assets/img/logo/logo-w-nbg.svg"
+                                            <Link href="/"><a className="logo-bl"><img src="/assets/img/logo/logo-w-bg.png"
                                                 alt="logo-img" /></a></Link>
                                         </div>
                                         <div className="main-menu main-menu1 d-none d-xl-block">
