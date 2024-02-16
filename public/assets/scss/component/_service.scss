@@ -572,6 +572,7 @@
 		left: 50%;
 		top: 41%;
 		transform: translate(-50%, -50%);
+		opacity: 0.7;
 		@media #{$lg,$sm,$xs} {
 			font-size: 100px;
 		}
