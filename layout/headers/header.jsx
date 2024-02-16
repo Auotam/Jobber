@@ -40,7 +40,7 @@ const HeaderOne = () => {
                                 <div className="header-main-content-wrapper">
                                     <div className="header-main-left header-main-left-header1">
                                         <div className="header-logo header1-logo">
-                                            <Link href="/"><a className="logo-bl"><img src="/assets/img/logo/logo-w-bg.png"
+                                            <Link href="/"><a className="logo-bl"><img src="/assets/img/logo/logo-w-nbg.svg"
                                                 alt="logo-img" /></a></Link>
                                         </div>
                                         <div className="main-menu main-menu1 d-none d-xl-block">
@@ -50,7 +50,7 @@ const HeaderOne = () => {
                                         </div>
                                     </div>
                                     <div className="header-main-right header-main-right-header1">
-                                        <span onClick={()=> setOpenCart(true)} className="action-btn cart-btn d-inline-flex action-item-cart"><i className="fas fa-shopping-basket"></i><span className='product-quantity-circle-cart'>({quantity})</span></span>
+                                        {/* <span onClick={()=> setOpenCart(true)} className="action-btn cart-btn d-inline-flex action-item-cart"><i className="fas fa-shopping-basket"></i><span className='product-quantity-circle-cart'>({quantity})</span></span> */}
                                         <Link href="/contact"><a className="border-btn-rounded d-none d-lg-inline-flex"><i className="fal fa-farm"></i><span>Get a Quote</span></a></Link>
                                         <div className="menu-bar d-xl-none">
                                             <span className="side-toggle" onClick={() => setShowSidebar(true)}>
@@ -74,7 +74,7 @@ const HeaderOne = () => {
             {/* sidebar end */}
 
             {/* side cart */}
-            <SidebarCart openCart={openCart} setOpenCart={setOpenCart}/>
+            {/* <SidebarCart openCart={openCart} setOpenCart={setOpenCart}/> */}
             {/* side cart */}
         </>
     );
