@@ -49,6 +49,7 @@ const FooterOne = () => {
                                     <li><Link href="/contact"><a>Get in touch</a></Link></li>
                                     <li><Link href="/contact"><a>Emergency</a></Link></li>
                                     <li><Link href="/contact"><a>get a quote</a></Link></li>
+                                    <li><Link href="/career"><a>Career</a></Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -128,7 +129,7 @@ const FooterOne = () => {
                             </div>
                             <div className="col-lg-6 col-md-6">
                                 <div className="copyright-text copyright1-text">
-                                    Copyright & Design By <a href="https://www.auotam..com">Auotam</a> - 2024
+                                    Copyright & Design By <a target='_blank' href="https://www.auotam.com">Auotam</a> - 2024
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-2">

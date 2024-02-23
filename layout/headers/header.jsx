@@ -8,8 +8,10 @@ import useCartInfo from '../../hooks/use-cart-info';
 import useGlobalContext from '../../hooks/use-context';
 import HeaderTop from './headertop';
 import NavMenu from './navmenu';
+import Modal from '../../components/model';
 
 const HeaderOne = () => {
+    
     const [openCart,setOpenCart] = useState(false)
     const { quantity } = useCartInfo();
     //for mobile menu
@@ -28,9 +30,26 @@ const HeaderOne = () => {
 		const scrollTop = window.scrollY;
 		scrollTop >= 40 ? header.classList.add('sticky') : header.classList.remove('sticky');
 	 };
+
+     const [isModalOpen, setIsModalOpen] = useState(false);
+     
+
+     const handleOpenModal = () => {
+       console.log("Opening modal");
+       setIsModalOpen(true);
+     };
+   
+     const handleCloseModal = () => {
+       console.log("Closing modal");
+       setIsModalOpen(false);
+     };
+   
+     console.log("isModalOpen:", isModalOpen);
 	 // Sticky Menu Area End
     return (
         <>
+
+
             <header className="header1">
                 <HeaderTop />
                 <div id="header-sticky" className="header-main header-main1">
@@ -51,7 +70,7 @@ const HeaderOne = () => {
                                     </div>
                                     <div className="header-main-right header-main-right-header1">
                                         {/* <span onClick={()=> setOpenCart(true)} className="action-btn cart-btn d-inline-flex action-item-cart"><i className="fas fa-shopping-basket"></i><span className='product-quantity-circle-cart'>({quantity})</span></span> */}
-                                        <Link href="/contact"><a className="border-btn-rounded d-none d-lg-inline-flex"><i className="fal fa-farm"></i><span>Get a Quote</span></a></Link>
+                                        <a className="border-btn-rounded d-none d-lg-inline-flex" onClick={handleOpenModal} ><i className="fal fa-farm"></i><span>Get a Quote</span></a>
                                         <div className="menu-bar d-xl-none">
                                             <span className="side-toggle" onClick={() => setShowSidebar(true)}>
                                                 <div className="bar-icon">
@@ -74,8 +93,10 @@ const HeaderOne = () => {
             {/* sidebar end */}
 
             {/* side cart */}
-            {/* <SidebarCart openCart={openCart} setOpenCart={setOpenCart}/> */}
+            <SidebarCart openCart={openCart} setOpenCart={setOpenCart}/>
+            <Modal isOpen={isModalOpen} onClose={handleCloseModal} />
             {/* side cart */}
+            
         </>
     );
 };

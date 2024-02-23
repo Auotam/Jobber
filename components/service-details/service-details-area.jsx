@@ -2,9 +2,12 @@ import Link from 'next/link';
 import React from 'react';
 
 const ServiceDetailsArea = ({ item }) => {
+    const backgroundImageUrl = `${item.serviceImgNew}`;
+    const backgroundImageUrl2 = `${item.serviceImgNew2}`;
+    
     return (
         <>
-            <section className="page-title-area" style={{ background: "url(/assets/img/bg/page-title-bg.jpg)" }}>
+            <section className="page-title-area" style={{ background: `url(${backgroundImageUrl}) center`, backgroundSize: "cover" }}>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
@@ -35,7 +38,7 @@ const ServiceDetailsArea = ({ item }) => {
                         <div className="col-lg-9 col-md-12">
                             <div className="service-details-main mb-60">
                                 <div className="service-image">
-                                    <img src="/assets/img/service/service-img1.jpg" alt="" />
+                                    <img src={backgroundImageUrl2} alt="" />
                                 </div>
                                 <h3 className="mb-15">{item.paraone && item.paraone.para1 && item.paraone.para1.title}</h3>
                                  <p className="mb-15">{item.paraone && item.paraone.para1 && item.paraone.para1.content}</p>

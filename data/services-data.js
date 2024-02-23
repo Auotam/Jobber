@@ -1,7 +1,9 @@
 const ServicesList = [
     {
-        id:1,
+        id:"residential",
         serviceImg:'/assets/img/service/service-img-st2-1.jpeg',
+        serviceImgNew: '/assets/img/resident/01_Residential_Banner.jpeg',
+        serviceImgNew2: '/assets/img/resident/02_Residential_Banner.jpeg',
         serviceIcon:'flaticon-gardening-1',
         serviceTitle:'Residential',
         serviceBadge:'',
@@ -26,8 +28,11 @@ const ServicesList = [
 
     },
     {
-        id:2,
+        id:"commercial",
         serviceImg:'/assets/img/service/service-img-st2-2.jpeg',
+        
+        serviceImgNew2: '/assets/img/resident/01_Commercial_Banner.jpeg',
+        serviceImgNew: '/assets/img/resident/03_Commercial_Banner.jpeg',
         serviceIcon:'flaticon-house',
         serviceTitle:'Commercial',
         serviceBadge:'',

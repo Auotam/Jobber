@@ -51,6 +51,26 @@
 	position: relative;
 }
 
+
+.modal.open {
+	display: flex; /* Show the modal when it has the "open" class */
+	justify-content: center;
+	align-items: center;
+	background-color:rgba(11, 61, 44, 0.6);
+  }
+
+  .close-btn{ background-color: #022a1c; color: #fff;}
+
+
+  .modal-content {
+	background-color: #fff;
+	width: 600px;
+	margin: 0 auto; height: 100%;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
 .banner-bg {
 	position: absolute;
 	width: 100%;
@@ -139,7 +159,8 @@
 	}
 	.border-btn-rounded {
 		border-color: #575d4d;
-		color: var(--clr-common-white);
+		background-color: #fff;
+		color:#575d4d;
 		&:hover {
 			color: var(--clr-theme-1);
 			border-color: var(--clr-common-white);

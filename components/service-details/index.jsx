@@ -5,13 +5,17 @@ import HeaderOne from '../../layout/headers/header';
 import ServiceDetailsArea from './service-details-area';
 
 
-const item = ServicesList[0]
 
-const index = () => {
+
+
+const index = ({id}) => {
+
+    const item = ServicesList.find(service => service.id === id);
+    
     return (
         <main>
             <HeaderOne />
-            <ServiceDetailsArea item={item} />
+            {item && <ServiceDetailsArea item={item} />}
             <FooterOne />
         </main>
     );
