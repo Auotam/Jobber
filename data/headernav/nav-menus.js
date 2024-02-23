@@ -1,13 +1,11 @@
 const nav_menus_list = [
-  // {
-  //   link: '/',
-  //   title: 'Home',
-  //   hasDropdown: false,
-  //   megamenu: false,
-  //   dropdownItems: [
-  //     { link: '/', title: 'Home' },
-  //   ]
-  // },
+  {
+    link: '/',
+    title: 'Home',
+    hasDropdown: false,
+    megamenu: false,
+   
+  },
   {
     link: '/service-details/residential',
     title: 'Residential',
