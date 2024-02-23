@@ -7,7 +7,7 @@ const ServiceDetailsArea = ({ item }) => {
     
     return (
         <>
-            <section className="page-title-area" style={{ background: `url(${backgroundImageUrl}) center`, backgroundSize: "cover" }}>
+            <section className="page-title-area bannerout" style={{ background: `url(${backgroundImageUrl}) center`, backgroundSize: "cover" }}>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
