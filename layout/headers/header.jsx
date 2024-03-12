@@ -17,6 +17,8 @@ const HeaderOne = () => {
     //for mobile menu
     const { setShowSidebar } = useGlobalContext();
 
+
+    
     // Sticky Menu Area start
 	useEffect(() => {
 		window.addEventListener('scroll', sticky);

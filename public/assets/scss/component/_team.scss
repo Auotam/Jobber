@@ -366,3 +366,16 @@
 		background: #f8f5f0;
 	}
 }
+
+
+
+.tra-menu.white-scroll .wsmainfull.scroll,
+.white-menu.white-scroll .wsmainfull.scroll {
+  padding: 0;
+  background-color: rgba(255, 255, 255, .7)!important;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  -webkit-box-shadow: 0 2px 3px rgba(96, 96, 96, .1);
+  -moz-box-shadow: 0 2px 3px rgba(96, 96, 96, .1);
+  box-shadow: 0 2px 3px rgba(96, 96, 96, .1);
+}
