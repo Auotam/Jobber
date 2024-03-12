@@ -21,8 +21,8 @@ const HeroSlider = () => {
         {
             id: 2,
             sliderBg: '/assets/img/banner/banner-2-1.jpeg',
-            sliderSubtitle: 'Simple,Stunning Yours.',
-            sliderTitle: 'Jik Flower Scaping',
+            sliderSubtitle: 'Hassle-Free Lawn Care',
+            sliderTitle: 'Hassle-Free Lawn Care',
             sliderbtn: 'request an estimate',
             sliderbtn2: 'About Us',
         },
@@ -30,7 +30,7 @@ const HeroSlider = () => {
             id: 3,
             sliderBg: '/assets/img/banner/banner-4-1.jpg    ',
             sliderSubtitle: 'Simple,Stunning Yours.',
-            sliderTitle: 'k.i Flower plants',
+            sliderTitle: 'Hassle-Free Lawn Care',
             sliderbtn: 'request an estimate',
             sliderbtn2: 'About Us',
         }

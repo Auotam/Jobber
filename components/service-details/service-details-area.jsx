@@ -92,24 +92,7 @@ const ServiceDetailsArea = ({ item }) => {
                                     worried about game safety or
                                     that
                                     your kid is gaming too much: Join your kids on their favorite platform.</p>
-                                <div className="service-sub-image">
-                                    <img src="/assets/img/service/service-sub1.jpg" alt="" />
-                                    <img src="/assets/img/service/service-sub2.jpg" alt="" />
-                                </div>
-                                <div className="service-features mb-60">
-                                    <h4>Core Features</h4>
-                                    <div className="service-feature-list">
-                                        <span>Easy sign-up</span>
-                                        <span>Business Content Makes</span>
-                                        <span>Overall Marketing</span>
-                                        <span>Biggest Social Channels</span>
-                                        <span>Business associates</span>
-                                        <span>Interaction between</span>
-                                        <span>Customers and search</span>
-                                        <span>Traffic exponentially</span>
-                                        <span>SEO strategy</span>
-                                    </div>
-                                </div>
+                                
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-8">
@@ -118,15 +101,15 @@ const ServiceDetailsArea = ({ item }) => {
                                     <h4 className="sidebar-widget-title">Our Services</h4>
                                     <div className="sidebar-service-list">
                                         <ul>
-                                            <li><Link href="/service"><a>Green Technology</a></Link></li>
-                                            <li><Link href="/service"><a>Urban Gardening</a></Link></li>
-                                            <li><Link href="/service"><a>Nursery/Tree Farm</a></Link></li>
-                                            <li><Link href="/service"><a>Trimming & Pruning</a></Link></li>
-                                            <li><Link href="/service"><a>Soil Preparing</a></Link></li>
+                                            <li><Link href="/service"><a>RESIDENTIAL LAWN CARE </a></Link></li>
+                                            <li><Link href="/service"><a>COMMERCIAL MOWING</a></Link></li>
+                                            <li><Link href="/service"><a>VEGETATION CONTROL</a></Link></li>
+                                            <li><Link href="/service"><a>EDIBLE GARDEN INSTALLATION</a></Link></li>
+                                            
                                         </ul>
                                     </div>
                                 </div>
-                                <div className="sidebar-widget sidebar-materials mb-50">
+                                {/* <div className="sidebar-widget sidebar-materials mb-50">
                                     <h4 className="sidebar-widget-title">Our Materials</h4>
                                     <div className="sidebar-materials-list">
                                         <ul>
@@ -135,10 +118,10 @@ const ServiceDetailsArea = ({ item }) => {
                                             <li><a href="#"><i className="fas fa-file-prescription"></i>Service Technician</a></li>
                                         </ul>
                                     </div>
-                                </div>
-                                <div className="sidebar-widget sidebar-adv mb-50">
+                                </div> */}
+                                {/* <div className="sidebar-widget sidebar-adv mb-50">
                                     <img src="/assets/img/service/service-sidebar-adv.jpg" alt="" />
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

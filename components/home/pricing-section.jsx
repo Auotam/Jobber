@@ -11,7 +11,7 @@ const PricingSection = () => {
          packagePrice: '$75.00',
          packageService: 'Standard Cut (Mowing, Edging, Weedeating, Blowing)',
          packagePlaning: 'Leaf & Litter Removal',
-         packageParty: 'Hedge & Shrub Trimming   klk         ',
+         packageParty: 'Hedge & Shrub Trimming',
          packageLandscape: 'Garden Bed Cleaning',
          packageMulching: 'Mulching',
          packagePesticide: 'Pesticide Application',
@@ -38,7 +38,7 @@ const PricingSection = () => {
          packagePrice: '$125.00',
          packageService: 'Standard Cut (Mowing, Edging, Weedeating, Blowing)',
          packagePlaning: 'Leaf & Litter Removal',
-         packageParty: 'Hedge & Shrub Trimming   klk         ',
+         packageParty: 'Hedge & Shrub Trimming',
          packageLandscape: 'Garden Bed Cleaning',
          packageMulching: 'Mulching',
          packagePesticide: 'Pesticide Application',
@@ -65,7 +65,7 @@ const PricingSection = () => {
          packagePrice: '$225.00',
          packageService: 'Standard Cut (Mowing, Edging, Weedeating, Blowing)',
          packagePlaning: 'Leaf & Litter Removal',
-         packageParty: 'Hedge & Shrub Trimming   klk         ',
+         packageParty: 'Hedge & Shrub Trimming',
          packageLandscape: 'Garden Bed Cleaning',
          packageMulching: 'Mulching',
          packagePesticide: 'Pesticide Application',
@@ -80,10 +80,10 @@ const PricingSection = () => {
          packageListClassC: 'no-inc',
          packageListClassD: 'no-inc',
          packageListClassE: 'no-inc',
-         packageListClassF: 'n-inc',
-         packageListClassG: 'n-inc',
-         packageListClassH: 'n-inc',
-         packageListClassI: 'n-inc'
+         packageListClassF: 'no-inc',
+         packageListClassG: 'no-inc',
+         packageListClassH: 'no-inc',
+         packageListClassI: 'no-inc'
       },
       
    ]
@@ -94,7 +94,7 @@ const PricingSection = () => {
                <div className="col-lg-8">
                   <div className="section-title text-center pricing-section-title">
                      <span className="section-subtitle">pricing</span>
-                     <h2 className="section-main-title mb-45">Residential Lawn Care Subscription Plans
+                     <h2 className="section-main-title mb-45">Residential Lawn Care Pricing Plans
 </h2>
                   </div>
                </div>

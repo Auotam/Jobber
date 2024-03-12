@@ -81,7 +81,7 @@ const PortfolioSection = () => {
                                                                     </div>
                                                                     <div className="portfolio-meta-single">
                                                                         <div className="portfolio-meta-text">
-                                                                            <div className="project-budget">{item.portfolioBudget}</div>
+                                                                            <div className="project-budget">{item.portfolioTag}</div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -162,11 +162,11 @@ const PortfolioSection = () => {
                                                                             <span className="portfolio-tag"><Link href={`/portfolio-details/${item.id}`}><a>{item.portfolioTag}</a></Link></span>
                                                                         </div>
                                                                     </div>
-                                                                    <div className="portfolio-meta-single">
+                                                                    {/* <div className="portfolio-meta-single">
                                                                         <div className="portfolio-meta-text">
                                                                             <div className="project-budget">{item.portfolioBudget}</div>
                                                                         </div>
-                                                                    </div>
+                                                                    </div> */}
                                                                 </div>
                                                                 <h4 className="portfolio-title"><Link href={`/portfolio-details/${item.id}`}><a>{item.portfolioTitle}</a></Link></h4>
                                                             </div>

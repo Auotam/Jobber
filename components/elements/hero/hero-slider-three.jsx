@@ -17,14 +17,14 @@ const HeroSliderThree = () => {
             id: 1,
             sliderBg: '/assets/img/banner/banner-3-1.jpg',
             sliderSubtitle: 'since from 2000',
-            sliderTitle: 'Jik Flower Scaping',
+            sliderTitle: 'Hassle-Free Lawn Care',
             sliderbtn: 'Get estimate',
         },
         {
             id: 2,
             sliderBg: '/assets/img/banner/banner-4-1-dark.jpg',
             sliderSubtitle: 'since from 2000',
-            sliderTitle: 'k.i Flower plants',
+            sliderTitle: 'Hassle-Free Lawn Care',
             sliderbtn: 'Get estimate',
         },
         {

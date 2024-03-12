@@ -7,7 +7,7 @@ const nav_menus_list = [
    
   },
   {
-    link: '/service-details/residential',
+    link: '/services/residential',
     title: 'Residential',
     hasDropdown: false,
     megamenu: false,
@@ -21,7 +21,7 @@ const nav_menus_list = [
  
 
   {
-    link: '/service-details/commercial',
+    link: '/services/commercial',
     title: 'Commercial',
     hasDropdown: false,
     megamenu: false,

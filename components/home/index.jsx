@@ -25,9 +25,9 @@ const index = () => {
       <PricingSection />
       <PortfolioSection />
       <WorkSection />
-      <TestimonialSection />
+      {/* <TestimonialSection /> */}
       <FactSection />
-      <BlogSection />
+      {/* <BlogSection /> */}
       <BrandSlider />
       <FooterOne />
     </main>

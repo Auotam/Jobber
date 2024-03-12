@@ -87,7 +87,7 @@ const FooterOne = () => {
                                                 <div className="contact-icon">
                                                     <i className="fas fa-envelope-open"></i>
                                                 </div>
-                                                <p><a href="mailto:info@bdevs-email.com">info@bdevs-email.com</a></p>
+                                                <p><a href="mailto:info@bdevs-email.com">info@claypotbotanical.com</a></p>
                                             </div>
                                         </li>
                                         <li>
@@ -95,8 +95,7 @@ const FooterOne = () => {
                                                 <div className="contact-icon">
                                                     <i className="fas fa-map-marked-alt"></i>
                                                 </div>
-                                                <p><a href="#">60 East 65th Street, New York
-                                                    City, NY 10065</a></p>
+                                                <p><a href="#">1135 Bethany Rd Covington, GA 30016</a></p>
                                             </div>
                                         </li>
                                     </ul>
@@ -128,11 +127,13 @@ const FooterOne = () => {
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-6">
-                                <div className="copyright-text copyright1-text">
+                                <div className="copyright-text copyright1-text ">
                                     Copyright & Design By <a target='_blank' href="https://www.auotam.com">Auotam</a> - 2024
                                 </div>
+                                
                             </div>
-                            <div className="col-lg-3 col-md-2">
+                            <div className="col-lg-3 col-md-2 d-flex align-items-center justify-content-between">
+                            <a><img className='sbalogo' src="/assets/img/bg/footer.jpg" alt="" /></a>
                                 <div className="go-top-btn">
                                     <a className="go-top" href="#"><i className="fal fa-long-arrow-up"></i></a>
                                 </div>

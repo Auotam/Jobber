@@ -31,7 +31,7 @@ const ContactMapSection = () => {
                                  <div className="contact-icon">
                                     <i className="fas fa-phone"></i>
                                  </div>
-                                 <p><a href="tel:1-800-700-600">1-800-700-600</a></p>
+                                 {/* <p><a href="tel:1-800-700-600">1-800-700-600</a></p> */}
                               </div>
                            </li>
                            <li>
@@ -39,7 +39,7 @@ const ContactMapSection = () => {
                                  <div className="contact-icon">
                                     <i className="fas fa-envelope-open"></i>
                                  </div>
-                                 <p><a href="mailto:info@bdevs-email.com">info@bdevs-email.com</a></p>
+                                 <p><a href="mailto:info@bdevs-email.com">info@claypotbotanical.com</a></p>
                               </div>
                            </li>
                            <li>
@@ -47,8 +47,7 @@ const ContactMapSection = () => {
                                  <div className="contact-icon">
                                     <i className="fas fa-map-marked-alt"></i>
                                  </div>
-                                 <p><a href="#">60 East 65th Street, New York
-                                       City, NY 10065</a></p>
+                                 <p><a href="#">1135 Bethany Rd Covington, GA 30016</a></p>
                               </div>
                            </li>
                         </ul>

@@ -34,15 +34,15 @@ const TeamDetailsArea = ({ item }) => {
                         <div className="row wow fadeInUp" data-wow-delay=".3s">
                             <div className="col-xl-5">
                                 <div className="member-img">
-                                    <img src={item.teamImg} alt="" />
-                                    <div className="member-contact">
+                                    {/* <img src={item.teamImg} alt="" /> */}
+                                    <div className="member-contact mt-20">
                                         <ul>
                                             <li>
                                                 <div className="single-contact">
                                                     <div className="contact-icon">
                                                         <i className="fas fa-phone"></i>
                                                     </div>
-                                                    <p>Tel: <a href="tel:+123-4561-5523">+123-4561-5523</a></p>
+                                                    <p><a href="tel:+123-4561-5523">+123-4561-5523</a></p>
                                                 </div>
                                             </li>
                                             <li>
@@ -50,17 +50,17 @@ const TeamDetailsArea = ({ item }) => {
                                                     <div className="contact-icon">
                                                         <i className="fas fa-envelope-open"></i>
                                                     </div>
-                                                    <p>Email: <a href="mailto:example@email.com">example@email.com</a></p>
+                                                    <p><a href="mailto:info@claypotbotanical.com">info@claypotbotanical.com</a></p>
                                                 </div>
                                             </li>
-                                            <li>
+                                            {/* <li>
                                                 <div className="single-contact">
                                                     <div className="contact-icon">
                                                         <i className="fas fa-map-marked-alt"></i>
                                                     </div>
                                                     <p>Add: <a href="#">Flat 20, Reynolds Neck</a></p>
                                                 </div>
-                                            </li>
+                                            </li> */}
                                         </ul>
                                     </div>
                                 </div>
@@ -69,17 +69,9 @@ const TeamDetailsArea = ({ item }) => {
                                 <div className="team-details-content-wrapper mb-60">
                                     <span className="member-designation">{item.teamSubtitle}</span>
                                     <h4 className="member-name">{item.teamTitle}</h4>
-                                    <p className="mb-20">Most gardens consist of a mix of natural and constructed elements, although
-                                        even very
-                                        natural gardens are always an inherently artificial creation. Natural elements present in
-                                        a garden principally.</p>
-                                    <p className="mb-35">The English garden usually included a lake, sweeps of gently rolling lawns set
-                                        against
-                                        groves of trees, and recreations of classical temples, Gothic ruins, bridges, and other
-                                        picturesque architecture, designed to recreate an idyllic pastoral landscape. Gardens are
-                                        also thought of as an image of the soul and innocence.</p>
-                                    <div className="hr-1"></div>
-                                    <div className="team-details-social">
+                                    <p className="mb-20">{item.content}</p>
+                                                                      <div className="hr-1"></div>
+                                    {/* <div className="team-details-social">
                                         <h4 className="section-widget-title">follow me on</h4>
                                         <div className="social-links team-social">
                                             <ul>
@@ -88,7 +80,7 @@ const TeamDetailsArea = ({ item }) => {
                                                 <li><a href="#"><i className="fab fa-youtube"></i></a></li>
                                             </ul>
                                         </div>
-                                    </div>
+                                    </div> */}
                                     <div className="hr-1"></div>
                                     <div className="team-details-skill mt-35">
                                         <h4 className="section-widget-title">skillset</h4>
@@ -143,7 +135,7 @@ const TeamDetailsArea = ({ item }) => {
                                         </div>
                                     </div>
                                     <div className="hr-1"></div>
-                                    <div className="team-details-contact mt-35">
+                                    {/* <div className="team-details-contact mt-35">
                                         <h4 className="section-widget-title">Contact Me</h4>
                                         <p className="mb-25">It also symbolizes consciousness because of its enclosed characteristics, as
                                             opposed
@@ -172,7 +164,7 @@ const TeamDetailsArea = ({ item }) => {
                                                 </div>
                                             </form>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>

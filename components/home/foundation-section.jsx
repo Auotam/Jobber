@@ -17,24 +17,24 @@ const FoundationSection = () => {
                     <div className="col-lg-6">
                         <div className="foundation-content mb-60">
                             <div className="section-title">
-                                <span className="section-subtitle">since from 2000</span>
-                                <h2 className="section-main-title mb-20">Gardeny offers a
-                                    full-service</h2>
+                                <span className="section-subtitle">Since 2019</span>
+                                <h2 className="section-main-title mb-20">Full-SERVICE GRASS CARE</h2>
                             </div>
-                            <p>Most gardens consist of a mix of natural and constructed elements, although
-                                even very natural gardens are always an inherently artificial creation. Natural
-                                elements present in a garden principally. </p>
+                            <p>Experience the convenience and peace of mind that full-service lawn Care
+                                brings.Spend more time loving your green spaces, leaving the worry to us.
+                            </p>
                             <div className="founder-meta mt-45">
                                 <div className="founder-info-meta">
-                                    <div className="founder-img">
+                                <Link href="/contact"><a className="fill-btn-rounded">get in touch<i className="fal fa-angle-right"></i></a></Link>
+                                    {/* <div className="founder-img">
                                         <img src="/assets/img/team/founder.jpg" alt=""/>
-                                    </div>
-                                    <div className="founder-desciption">
+                                    </div> */}
+                                    {/* <div className="founder-desciption">
                                         <span className="designation">founder</span>
                                         <h4 className="founder-name">humble d. dowson</h4>
-                                    </div>
+                                    </div> */}
                                 </div>
-                                <Link href="/contact"><a className="fill-btn-rounded">get in touch<i className="fal fa-angle-right"></i></a></Link>
+                               
                             </div>
                         </div>
                     </div>

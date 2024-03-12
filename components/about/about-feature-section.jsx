@@ -11,7 +11,7 @@ const AboutFeatureSection = () => {
                             <div className="single-strategy mb-30">
                                 <div className="st-hover">
                                     <div className="st-h-content" style={{ background: "url(/assets/img/bg/st-h-bg.jpg)" }}>
-                                        <p>At CPB, we provied top-notch lawn care for vibrant commercial and residential lanscapes with enviromental landscapes with environmental sustainability, professionalism, and attention to detail.</p>
+                                        <p>At CPB, we provide top-notch lawn care for vibrant commercial and resudebtial landscaped with enviromental sustainabillity, professionalism, and attention to detail.</p>
                                     </div>
                                     <div className="st-h-btn">
                                         <Link href="/contact"><a className="fill-btn">get in touch<i className="fal fa-angle-right"></i></a></Link>

@@ -7,6 +7,7 @@ import AboutFeatureSection from './about-feature-section';
 import AboutTimeline from './about-timeline';
 import AboutVideoSection from './about-video-section';
 import AboutUsSection from './aboutus-section';
+import TeamsSection from '../team/teams-section';
 
 
 const AboutMain = () => {
@@ -17,9 +18,10 @@ const AboutMain = () => {
                 <Breadcrumb breadTitle={'about us'} breadSubtitle={'Provides hassle-free backyard transformation'} breadHome={'Home'} breadMenu={'about us'} />
                 <AboutUsSection />
                 <AboutFeatureSection />
-                <AboutVideoSection />
-                <BrandSliderTwo />
-                <AboutTimeline />
+                <TeamsSection />
+                {/* <AboutVideoSection /> */}
+                {/* <BrandSliderTwo /> */}
+                {/* <AboutTimeline /> */}
             </main>
             <FooterOne />
         </>

@@ -5,7 +5,7 @@ const ServicesList = [
         serviceImgNew: '/assets/img/resident/01_Residential_Banner.jpeg',
         serviceImgNew2: '/assets/img/resident/02_Residential_Banner.jpeg',
         serviceIcon:'flaticon-gardening-1',
-        serviceTitle:'Residential',
+        serviceTitle:'Residential Lawn Care',
         serviceBadge:'',
         serviceDesc:'Get expert advice on how to design a garden.',
 
@@ -34,7 +34,7 @@ const ServicesList = [
         serviceImgNew2: '/assets/img/resident/01_Commercial_Banner.jpeg',
         serviceImgNew: '/assets/img/resident/03_Commercial_Banner.jpeg',
         serviceIcon:'flaticon-house',
-        serviceTitle:'Commercial',
+        serviceTitle:'Commercial Mowing',
         serviceBadge:'',
         serviceDesc:'Plants are expensive and need to be looked after.',
         paraone : {
