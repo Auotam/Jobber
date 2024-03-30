@@ -9,7 +9,7 @@ import portfolioList from '../../data/portfolio-data';
 
 const PortfolioSection = () => {
     return (
-        <section className="portfolio-area portfolio-area2 pt-120 pb-90">
+        <section className="portfolio-area portfolio-area2 pt-120 pb-90 pt-90_">
          <div className="container">
             <div className="row align-items-center wow fadeInUp" data-wow-delay=".3s">
                <div className="col-lg-6">
@@ -65,18 +65,18 @@ const PortfolioSection = () => {
                                                 <div className="swiper-slidess">
                                                     <div className="portfolio-single portfolio-bottom-content">
                                                         <div className="portfolio-thumb">
-                                                            <Link href={`/portfolio-details/${item.id}`}><a>
+                                                            <a>
                                                                 <div className="beforeAfter">
                                                                     <img src={item.portfolioImg} />
                                                                 </div>
-                                                            </a></Link>
+                                                            </a>
                                                         </div>
                                                         <div className="portfolio-content">
                                                             <div className="portfolio-inner">
                                                                 <div className="portfolio-meta-list">
                                                                     <div className="portfolio-meta-single">
                                                                         <div className="portfolio-meta-text">
-                                                                            <span className="portfolio-tag"><Link href={`/portfolio-details/${item.id}`}><a>{item.portfolioTag}</a></Link></span>
+                                                                            <span className="portfolio-tag"><a>{item.portfolioTag}</a></span>
                                                                         </div>
                                                                     </div>
                                                                     <div className="portfolio-meta-single">
@@ -85,10 +85,10 @@ const PortfolioSection = () => {
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <h4 className="portfolio-title"><Link href={`/portfolio-details/${item.id}`}><a>{item.portfolioTitle}</a></Link></h4>
+                                                                <h4 className="portfolio-title"><a>{item.portfolioTitle}</a></h4>
                                                             </div>
                                                             <div className="portfolio-btn">
-                                                                <Link href={`/portfolio-details/${item.id}`}><a className="icon-btn"><i className="fal fa-long-arrow-right"></i></a></Link>
+                                                                <a className="icon-btn"><i className="fal fa-long-arrow-right"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>

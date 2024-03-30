@@ -2,7 +2,7 @@ import React from 'react';
 
 const ContactFormSection = () => {
     return (
-        <section className="contact-area pt-120">
+        <section className="contact-area pb-40">
             <div className="container">
                 <div className="row wow fadeInUp" data-wow-delay=".3s">
                     <div className="col-lg-12">

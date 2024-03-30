@@ -15,10 +15,8 @@ const FooterOne = () => {
                                 <div className="footer-widget-title">
                                     <h4>about us</h4>
                                 </div>
-                                <p className="mb-35">Is that lawn is an open space between woods
-                                    or lawn can be uncountable a type of thin linen
-                                    or cotton while garden is an outdoor area
-                                    containing one or more types of plants</p>
+                                <p className="mb-35">Clay Pot Botanical is a trusted lawncare and garden service provider, offering comprehensive 
+                                capabilities to enhance outdoor spaces.</p>
                                 <div className="footer-support">
                                     <div className="irc-item support-meta">
                                         <div className="irc-item-icon">
@@ -41,19 +39,24 @@ const FooterOne = () => {
                                     <li><Link href="/"><a>Home</a></Link></li>
                                     <li><Link href="/about"><a>about</a></Link></li>
                                     <li><Link href="/services"><a>services</a></Link></li>
-                                    <li><Link href="/portfolia"><a>Portfolia</a></Link></li>
-                                    <li><Link href="/contact"><a>Contact</a></Link></li>
+                                    <li><Link href="/portfolia"><a>Portfolio</a></Link></li>
+                                    
+                                    
                                 </ul>
                                 <ul>
-                                    <li><Link href="/contact"><a>refund policy</a></Link></li>
+                                <li><Link href="/team"><a>Our Teams</a></Link></li>
+                                <li><Link href="/team"><a>Privacy</a></Link></li>
+                                <li><Link href="/career"><a>Career</a></Link></li>
+                                    <li><Link href="/contact"><a>Contact</a></Link></li>
+                                    {/* <li><Link href="/contact"><a>refund policy</a></Link></li>
                                     <li><Link href="/contact"><a>Get in touch</a></Link></li>
                                     <li><Link href="/contact"><a>Emergency</a></Link></li>
-                                    <li><Link href="/contact"><a>get a quote</a></Link></li>
-                                    <li><Link href="/career"><a>Career</a></Link></li>
+                                    <li><Link href="/contact"><a>get a quote</a></Link></li> */}
+                                    
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 col-sm-6">
+                        <div className="col-lg-3     col-md-6 col-sm-6">
                             <div className="footer-widget footer1-widget footer1-widget3 mb-40 ">
                                 <div className="footer-widget-title">
                                     <h4>our services</h4>

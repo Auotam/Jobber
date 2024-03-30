@@ -21,89 +21,66 @@ const BlogSectionMain = () => {
    const openVideoModal = () => setIsOpen(!isOpen);
 
    return (
-      <section className="blog-area pt-120 pb-60">
-         <div className="container">
-            <div className="row wow fadeInUp" data-wow-delay=".3s">
-
-               <div className="col-xl-9 col-lg-8 col-md-12">
-                  <div className="blog-main-wrapper mb-60">
-
-                     {blogItemsList.slice(11, 15).map((blog, i) => (
-                        <div key={i} className="blog-single">
-
-                           
-
-                           
-
-                           <div className="blog-content">
-                           
-
-                              <h2 className="blog-title"><Link href={`/career-details/${blog.id}`}><a>{blog.title}</a></Link></h2>
-                              <p>{blog.desc}</p>
-                              <div className="hr-1"></div>
-                              <div className="blog-meta-list">
-                                 <div className="blog-meta-single">
-                                    <div className="blog-meta-icon">
-                                       <i className="fas fa-eye"></i>
-                                    </div>
-                                    <div className="blog-meta-text">
-                                       {blog.blogView}
-                                    </div>
-                                 </div>
-                                 <div className="blog-meta-single">
-                                    <div className="blog-meta-icon">
-                                       <i className="fas fa-comments"></i>
-                                    </div>
-                                    <div className="blog-meta-text">
-                                       <Link href={`/blog-details/${blog.id}`}><a>{blog.blogComment}</a></Link>
-                                    </div>
-                                 </div>
-                                 <div className="blog-meta-single">
-                                    <div className="blog-meta-icon">
-                                       <i className="fas fa-calendar-alt"></i>
-                                    </div>
-                                    <div className="blog-meta-text">
-                                       {blog.date}
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
+      
+      <section className="contact-area pb-40">
+            <div className="container">
+                <div className="row wow fadeInUp" data-wow-delay=".3s">
+                    <div className="col-lg-12">
+                        <div className="contact-wrapper">
+                            <div className="contact-wrapper-content">
+                                <div className="section-title">
+                                    <span className="section-subtitle">Clay Pot Botanical</span>
+                                    <h2 className="section-main-title mb-35">Let's Customize Your Career Path Together!</h2>
+                                </div>
+                                <div className="contact-form">
+                                    <form action="#">
+                                        <div className="row">
+                                            <div className="col-sm-6">
+                                                <div className="single-input-field field-name">
+                                                    <input type="text" placeholder="First Name"/>
+                                                </div>
+                                            </div>
+                                            <div className="col-sm-6">
+                                                <div className="single-input-field field-name">
+                                                    <input type="text" placeholder="Last Name"/>
+                                                </div>
+                                            </div>
+                                            <div className="col-sm-6">
+                                                <div className="single-input-field field-email">
+                                                    <input type="text" placeholder="email address"/>
+                                                </div>
+                                            </div>
+                                            <div className="col-sm-6">
+                                                <div className="single-input-field field-phone">
+                                                    <input type="text" placeholder="Phone"/>
+                                                </div>
+                                            </div>
+                                            <div className="col-sm-12">
+                                                <div className="single-input-field field-file">
+                                                   
+                                                    <input type="file" placeholder="Upload your CV"/>
+                                                </div>
+                                            </div>
+                                            {/* <div className="col-sm-12">
+                                                <div className="single-input-field field-message">
+                                                    <textarea name="message" id="message" placeholder="message"></textarea>
+                                                </div>
+                                            </div> */}
+                                        </div>
+                                        <div className="contact-btn">
+                                            <button type='submit' className="fill-btn"><i className="fal fa-share"></i><span>Send</span></button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div className="contact-wrapper-img">
+                                <img src="/assets/img/history/history-thumb-5.jpg" alt=""/>
+                            </div>
                         </div>
-                     ))}
-
-                     <div className="blockquote-wrapper">
-                        <div className="blockquote-content">
-                           <div className="blockquote-icon">
-                              <img src="/assets/img/icon/quote-icon.png" alt="" />
-                           </div>
-                           <p>Office/partnership by submitting all
-                              the relevant documents</p>
-                        </div>
-                     </div>
-                     <div className="basic-pagination mt-50">
-                        <ul>
-                           <li><a className="prev page-numbers" href="#"><i className="fal fa-angle-double-left"></i></a></li>
-                           <li><span aria-current="page" className="page-numbers current">1</span></li>
-                           <li><a className="page-numbers" href="#">2</a></li>
-                           <li><a className="next page-numbers" href="#"><i className="fal fa-angle-double-right"></i></a></li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
-
-               <div className="col-xl-3 col-lg-4 col-md-8">
-                  <div className="blog-sidebar_wrapper mb-60">
-                     <BlogAbout />
-                     <BlogSearch />
-                     <SidebarBlogs />
-                     <BlogCategories />
-                     <BlogTag />
-                     <SponsorAdd />
-                  </div>
-               </div>
+                    </div>
+                </div>
             </div>
-         </div>
-      </section>
+        </section>
    );
 };
 

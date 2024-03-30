@@ -1,9 +1,27 @@
 import Link from 'next/link';
-import React from 'react';
+import React, {useState} from 'react';
 import ServicesList from '../../data/services-data';
+import Modal from '../../components/model';
 
 const ServiceSection = () => {
+
+    const [isModalOpen, setIsModalOpen] = useState(false);
+     
+
+    const handleOpenModal = () => {
+      console.log("Opening modal");
+      setIsModalOpen(true);
+    };
+  
+    const handleCloseModal = () => {
+      console.log("Closing modal");
+      setIsModalOpen(false);
+    };
+  
+    console.log("isModalOpen:", isModalOpen);
+
     return (
+        <>
         <section className="services-area services-area-2">
          <div className="container">
             <div className="services-wrapper services-wrapper-2">
@@ -33,13 +51,16 @@ const ServiceSection = () => {
                   <div className="service-action-bg-shape">
                      <img src="/assets/img/shape/pattern-1270.png" alt="shape-img"/>
                   </div>
-                  <h3>Provides Hassle-Free Backyard Transformations
-                     with Artistic Solutions.</h3>
-                    <Link href="/contact"><a className="fill-btn-rounded"><i className="fal fa-farm"></i><span>Get a Quote</span></a></Link>
+                  <h3>GIVE YOUR LAWN THE VIP TREATMENT.</h3>
+                     <a className="fill-btn-rounded" onClick={handleOpenModal} ><i className="fal fa-farm"></i><span>Get a Quote</span></a>
+                     {/* <Link href="/contact"><a className="fill-btn-rounded"><i className="fal fa-farm"></i><span>Get a Quote</span></a></Link> */}
                </div>
             </div>
          </div>
       </section>
+      <Modal isOpen={isModalOpen} onClose={handleCloseModal} />
+      </>
+      
     );
 };
 

@@ -20,12 +20,12 @@ const FoundationSection = () => {
                                 <span className="section-subtitle">Since 2019</span>
                                 <h2 className="section-main-title mb-20">Full-SERVICE GRASS CARE</h2>
                             </div>
-                            <p>Experience the convenience and peace of mind that full-service lawn Care
-                                brings.Spend more time loving your green spaces, leaving the worry to us.
+                            <p>Experience the convenience and pea ce of mind that full-service lawn care
+                                brings. spend more time loving your green spaces, leaving the worry to us.
                             </p>
                             <div className="founder-meta mt-45">
                                 <div className="founder-info-meta">
-                                <Link href="/contact"><a className="fill-btn-rounded">get in touch<i className="fal fa-angle-right"></i></a></Link>
+                                <Link href="/about"><a className="fill-btn-rounded">get in touch<i className="fal fa-angle-right"></i></a></Link>
                                     {/* <div className="founder-img">
                                         <img src="/assets/img/team/founder.jpg" alt=""/>
                                     </div> */}

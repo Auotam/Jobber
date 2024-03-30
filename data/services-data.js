@@ -70,7 +70,7 @@ const ServicesList = [
         serviceIcon:'flaticon-flower-with-rounded-petals',
         serviceTitle:'Edible Garden Installation',
         serviceBadge:'',
-        serviceDesc:'We at The Gardeny are proud to offer',
+        serviceDesc:'Who said gardens shouldn’t be delicious.',
     },
     //home one service end
     {

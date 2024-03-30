@@ -50,8 +50,7 @@ const HeaderOne = () => {
 	 // Sticky Menu Area End
     return (
         <>
-
-
+      
             <header className="header1">
                 <HeaderTop />
                 <div id="header-sticky" className="header-main header-main1">

@@ -13,9 +13,9 @@ const TeamsSection = () => {
                     <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6" key={num}>
                         <div className="team-single mb-30">
                             <div className="team-member-wrapper">
-                            {/* <div className="member-img">
+                            <div className="member-img">
                                 <Link href={`/team-details/${item.id}`}><a><img src={item.teamImg} alt=""/></a></Link>
-                            </div> */}
+                            </div>
                             <div className="member-content">
                                 <span className="member-designation">{item.teamSubtitle}</span>
                                 <h4 className="member-name"><Link href={`/team-details/${item.id}`}><a>{item.teamTitle}</a></Link></h4>

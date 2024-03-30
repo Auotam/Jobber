@@ -13,6 +13,7 @@ import PricingSection from './pricing-section';
 import ServiceSection from './service-section';
 import TestimonialSection from './testimonial-section';
 import WorkSection from './work-section';
+import ContactFormSection from '../contact/contact-form-section';
 
 
 const index = () => {
@@ -26,9 +27,11 @@ const index = () => {
       <PortfolioSection />
       <WorkSection />
       {/* <TestimonialSection /> */}
-      <FactSection />
+      {/* <FactSection /> */}
       {/* <BlogSection /> */}
-      <BrandSlider />
+      {/* <BrandSlider /> */}
+      <ContactFormSection style={{ "marginBottom": "20px !important" }} />
+
       <FooterOne />
     </main>
   );

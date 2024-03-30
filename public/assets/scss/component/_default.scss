@@ -1277,3 +1277,15 @@
 .pr-200 {
   padding-right: 200px
 }
+
+input[type="file"]::-webkit-file-upload-button {
+  background-color: #f2f2f2;
+}
+/* Fallback for Legacy Edge and IE */
+input[type="file"]::-ms-browse {
+  background-color: #f2f2f2;
+}
+/* Standard */
+input[type="file"]::file-selector-button {
+  background-color: #f2f2f2;
+}
