@@ -30,7 +30,7 @@ const BlogSectionMain = () => {
                             <div className="contact-wrapper-content">
                                 <div className="section-title">
                                     <span className="section-subtitle">Clay Pot Botanical</span>
-                                    <h2 className="section-main-title mb-35">Let's Customize Your Career Path Together!</h2>
+                                    <h2 className="section-main-title mb-35">Lets Customize Your Career Path Together!</h2>
                                 </div>
                                 <div className="contact-form">
                                     <form action="#">

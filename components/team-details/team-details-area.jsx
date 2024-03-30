@@ -4,7 +4,7 @@ import React from 'react';
 const TeamDetailsArea = ({ item }) => {
     return (
         <>
-            <section className="page-title-area" style={{ background: "url(/assets/img/team/team-intro-img.jpg), no-repeat" }}>
+            <section className="page-title-area">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
@@ -35,7 +35,7 @@ const TeamDetailsArea = ({ item }) => {
                             <div className="col-xl-5">
                                 <div className="member-img">
                                     <img src={item.teamImg} alt="" />
-                                    
+
                                     <div className="member-contact mt-20">
                                         <ul>
                                             <li>
