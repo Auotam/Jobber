@@ -12,7 +12,7 @@ const ServiceDetailsArea = ({ item }) => {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="page-title-wrapper">
-                                <p>Provides hassle-free backyard transformation</p>
+                                
                                 <h1 className="page-title mb-10">{item.serviceTitle}</h1>
                             </div>
                         </div>

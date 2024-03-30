@@ -12,7 +12,7 @@ const index = () => {
     return (
         <main>
             <HeaderOne />
-            <Breadcrumb breadTitle={'what we do'} breadSubtitle={'Provides hassle-free backyard transformation'} breadHome={'Home'} breadMenu={'services'} />
+            <Breadcrumb breadTitle={'what we do'}  breadHome={'Home'} breadMenu={'services'} />
             <ServicesSection />
             <ServiceChooseSection />
             <BlogSection />

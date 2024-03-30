@@ -27,7 +27,7 @@ const index = () => {
       <PortfolioSection />
       <WorkSection />
       {/* <TestimonialSection /> */}
-      {/* <FactSection /> */}
+      <FactSection />
       {/* <BlogSection /> */}
       {/* <BrandSlider /> */}
       <ContactFormSection style={{ "marginBottom": "20px !important" }} />

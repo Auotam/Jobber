@@ -10,26 +10,26 @@ const FactSection = () => {
     const factList = [
         {
             id: 1,
-            factTitle: 'year experience since',
-            factNumber: '2000',
+            factTitle: 'year experience',
+            factNumber: '5',
             factIcon: '/assets/img/icon/fact-icon.png',
-            factDesk: 'Delivering solutions for your garden in very easily.',
+            factDesk: 'We are Just Getting Started.',
             factPlant: 'fact-single'
         },
         {
             id: 2,
-            factTitle: 'house captured',
-            factNumber: '9250',
+            factTitle: 'Acered Serviced',
+            factNumber: '6781',
             factIcon: '/assets/img/icon/fact-icon.png',
-            factDesk: 'Delivering solutions for your garden in very easily.',
+            factDesk: 'Beautiful solution for Every square foot',
             factPlant: 'fact-single fact-plant-shape'
         },
         {
             id: 3,
-            factTitle: 'worldwide base',
-            factNumber: '3200',
+            factTitle: 'Plant Successfully harvested',
+            factNumber: '3157',
             factIcon: '/assets/img/icon/fact-icon.png',
-            factDesk: 'Delivering solutions for your garden in very easily.',
+            factDesk: 'Lawn Care never tested so good',
             factPlant: 'fact-single'
         }
     ]
