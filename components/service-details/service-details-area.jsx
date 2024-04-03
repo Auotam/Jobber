@@ -101,10 +101,10 @@ const ServiceDetailsArea = ({ item }) => {
                                     <h4 className="sidebar-widget-title">Our Services</h4>
                                     <div className="sidebar-service-list">
                                         <ul>
-                                            <li><Link href="/service"><a>RESIDENTIAL LAWN CARE </a></Link></li>
-                                            <li><Link href="/service"><a>COMMERCIAL MOWING</a></Link></li>
-                                            <li><Link href="/service"><a>VEGETATION CONTROL</a></Link></li>
-                                            <li><Link href="/service"><a>EDIBLE GARDEN INSTALLATION</a></Link></li>
+                                            <li><Link href="javascript:"><a>RESIDENTIAL LAWN CARE </a></Link></li>
+                                            <li><Link href="javascript:"><a>COMMERCIAL MOWING</a></Link></li>
+                                            <li><Link href="javascript:"><a>VEGETATION CONTROL</a></Link></li>
+                                            <li><Link href="javascript:"><a>EDIBLE GARDEN INSTALLATION</a></Link></li>
                                             
                                         </ul>
                                     </div>

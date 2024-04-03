@@ -17,7 +17,7 @@ const FooterOne = () => {
                                 </div>
                                 <p className="mb-35">Clay Pot Botanical is a trusted lawncare and garden service provider, offering comprehensive 
                                 capabilities to enhance outdoor spaces.</p>
-                                <div className="footer-support">
+                                {/* <div className="footer-support">
                                     <div className="irc-item support-meta">
                                         <div className="irc-item-icon">
                                             <i className="fas fa-phone-alt"></i>
@@ -27,7 +27,7 @@ const FooterOne = () => {
                                             <div className="support-number"><a href="tel:98965963168">1800-000-0000</a></div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-6">
@@ -45,7 +45,7 @@ const FooterOne = () => {
                                 </ul>
                                 <ul>
                                 <li><Link href="/team"><a>Our Teams</a></Link></li>
-                                <li><Link href="/team"><a>Privacy</a></Link></li>
+                                <li><Link href="/privacy-policy"><a>Privacy</a></Link></li>
                                 <li><Link href="/career"><a>Career</a></Link></li>
                                     <li><Link href="/contact"><a>Contact</a></Link></li>
                                     {/* <li><Link href="/contact"><a>refund policy</a></Link></li>
@@ -62,10 +62,10 @@ const FooterOne = () => {
                                     <h4>our services</h4>
                                 </div>
                                 <ul>
-                                    <li><Link href="/services"><a>Residential Lawn Care</a></Link></li>
-                                    <li><Link href="/services"><a>Commercial Mowing</a></Link></li>
-                                    <li><Link href="/services"><a>Vegetation Control</a></Link></li>
-                                    <li><Link href="/services"><a>Edible Garden Installation</a></Link></li>
+                                    <li><Link href="/services/residential"><a>Residential Lawn Care</a></Link></li>
+                                    <li><Link href="/services/commercial"><a>Commercial Mowing</a></Link></li>
+                                    {/* <li><Link href="/services/residential"><a>Vegetation Control</a></Link></li>
+                                    <li><Link href="/services"><a>Edible Garden Installation</a></Link></li> */}
                                     
                                 </ul>
                             </div>
@@ -77,14 +77,14 @@ const FooterOne = () => {
                                 </div>
                                 <div className="footer-contact">
                                     <ul>
-                                        <li>
+                                        {/* <li>
                                             <div className="single-contact">
                                                 <div className="contact-icon">
                                                     <i className="fas fa-phone"></i>
                                                 </div>
                                                 <p><a href="tel:1-800-700-600">1-800-700-600</a></p>
                                             </div>
-                                        </li>
+                                        </li> */}
                                         <li>
                                             <div className="single-contact">
                                                 <div className="contact-icon">
@@ -93,14 +93,14 @@ const FooterOne = () => {
                                                 <p><a href="mailto:info@bdevs-email.com">info@claypotbotanical.com</a></p>
                                             </div>
                                         </li>
-                                        <li>
+                                        {/* <li>
                                             <div className="single-contact">
                                                 <div className="contact-icon">
                                                     <i className="fas fa-map-marked-alt"></i>
                                                 </div>
                                                 <p><a href="#">1135 Bethany Rd Covington, GA 30016</a></p>
                                             </div>
-                                        </li>
+                                        </li> */}
                                     </ul>
                                 </div>
                                 <div className="footer-social">

@@ -38,14 +38,14 @@ const TeamDetailsArea = ({ item }) => {
 
                                     <div className="member-contact mt-20">
                                         <ul>
-                                            <li>
+                                            {/* <li>
                                                 <div className="single-contact">
                                                     <div className="contact-icon">
                                                         <i className="fas fa-phone"></i>
                                                     </div>
                                                     <p><a href="tel:+123-4561-5523">1800-000-0000</a></p>
                                                 </div>
-                                            </li>
+                                            </li> */}
                                             <li>
                                                 <div className="single-contact">
                                                     <div className="contact-icon">

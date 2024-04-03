@@ -13,7 +13,7 @@ const FactSection = () => {
             factTitle: 'year experience',
             factNumber: '5',
             factIcon: '/assets/img/icon/fact-icon.png',
-            factDesk: 'We are Just Getting Started.',
+            factDesk: 'We are just getting started.',
             factPlant: 'fact-single'
         },
         {
@@ -21,7 +21,7 @@ const FactSection = () => {
             factTitle: 'Acered Serviced',
             factNumber: '6781',
             factIcon: '/assets/img/icon/fact-icon.png',
-            factDesk: 'Beautiful solution for Every square foot',
+            factDesk: 'Beautiful solution for every square foot.',
             factPlant: 'fact-single fact-plant-shape'
         },
         {
@@ -29,7 +29,7 @@ const FactSection = () => {
             factTitle: 'Plant Successfully harvested',
             factNumber: '3157',
             factIcon: '/assets/img/icon/fact-icon.png',
-            factDesk: 'Lawn Care never tested so good',
+            factDesk: 'Lawn care never tested so good.',
             factPlant: 'fact-single'
         }
     ]
@@ -37,7 +37,7 @@ const FactSection = () => {
     return (
         <section className="fact-area fact-area-bg">
             <div className="fact-batch">
-                <img src="/assets/img/icon/fact-batch.png" alt=""/>
+                <img src="/assets/img/icon/fact-batch.jpeg" alt=""/>
             </div>
             <div className="container">
                 <div className="row justify-content-center wow fadeInUp" data-wow-delay=".3s">

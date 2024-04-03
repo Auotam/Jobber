@@ -11,7 +11,7 @@ const ServicesList = [
 
         paraone : {
             para1: {
-                title: "Residential Lawn Maintenance:",
+                title: "Residential Lawn Maintenance",
                 content: 'Elevate your home s curb appeal and environmental health with our indispensable residential lawn maintenance service. Our meticulous approach to expert mowing, edging, and fertilization is not just about aesthetics; its a fundamental investment in the overall well-being of your property. Ensure your outdoor space becomes a thriving and sustainable haven for your family, highlighting the importance of regular care for both visual and environmental benefits.',
                
             },
@@ -21,7 +21,7 @@ const ServicesList = [
             },
             para3: {
                 title: "Garden Planning and Installation",
-                content: ': Transform your outdoor living space into a vital and personalized sanctuary with our indispensable residential garden planning and installation service. Our collaborative approach, from meticulous design to skilled implementation, ensures a tailored garden that complements your aesthetic preferences and contributes to the ecological diversity of your surroundings'
+                content: 'Transform your outdoor living space into a vital and personalized sanctuary with our indispensable residential garden planning and installation service. Our collaborative approach, from meticulous design to skilled implementation, ensures a tailored garden that complements your aesthetic preferences and contributes to the ecological diversity of your surroundings'
         
             }
         }
