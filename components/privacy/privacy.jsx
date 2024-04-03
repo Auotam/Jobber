@@ -73,8 +73,8 @@ const PortfolioTabSection = () => {
       <p>
         We use cookies to enhance your experience on our website. Cookies are
         small files that a site or its service provider transfers to your
-        computer's hard drive through your web browser (if you allow) that
-        enables the site's or service provider's systems to recognize your
+        computer hard drive through your web browser (if you allow) that
+        enables the site or service provider systems to recognize your
         browser and capture and remember certain information.
       </p>
 
