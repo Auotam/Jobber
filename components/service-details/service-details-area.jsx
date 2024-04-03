@@ -1,10 +1,18 @@
 import Link from 'next/link';
-import React from 'react';
+import React, {useEffect} from 'react';
+import { useRouter } from 'next/router';
 
 const ServiceDetailsArea = ({ item }) => {
     const backgroundImageUrl = `${item.serviceImgNew}`;
     const backgroundImageUrl2 = `${item.serviceImgNew2}`;
     
+    
+    const router = useRouter();
+    const { id } = router.query;
+    const isCommercialService = id === 'residential';
+
+
+    console.log(router.pathname)
     return (
         <>
             <section className="page-title-area bannerout" style={{ background: `url(${backgroundImageUrl}) center`, backgroundSize: "cover" }}>
@@ -51,47 +59,40 @@ const ServiceDetailsArea = ({ item }) => {
                                  <h3 className="mb-15">{item.paraone && item.paraone.para3 && item.paraone.para3.title}</h3>
                                  <p className="mb-15">{item.paraone && item.paraone.para3 && item.paraone.para3.content}</p>
                                 
-                                
-                                <h3 className="mb-25">how we works</h3>
+                                 {isCommercialService && (
+                                    <>
+                                <h3 className="mb-25">how we work</h3>
                                 <div className="how-works-wrapper">
                                     <div className="working-steps">
                                         <div className="work-step">
                                             <div className="work-step-icon">
                                                 <img src="/assets/img/icon/work-icon1.png" alt="" />
                                             </div>
-                                            <h4>Garden Design</h4>
-                                            <p>Whether you are looking for plants,
-                                                trees, shrubs or garden</p>
+                                            <h4>GARDEN DESIGN</h4>
+                                            <p>Plan your service how you like it.</p>
                                         </div>
                                         <div className="work-step">
                                             <div className="work-step-icon">
                                                 <img src="/assets/img/icon/work-icon2.png" alt="" />
                                             </div>
-                                            <h4>soil filtering</h4>
-                                            <p>Whether you are looking for plants,
-                                                trees, shrubs or garden</p>
+                                            <h4>SOIL PREPARATION</h4>
+                                            <p>Balance Your soil for maximum plant potential.</p>
                                         </div>
                                         <div className="work-step">
                                             <div className="work-step-icon">
                                                 <img src="/assets/img/icon/work-icon3.png" alt="" />
                                             </div>
-                                            <h4>ready to plant</h4>
-                                            <p>Whether you are looking for plants,
-                                                trees, shrubs or garden</p>
+                                            <h4>READY TO PLANT</h4>
+                                            <p>Careful installation of cultivars</p>
                                         </div>
+
+                                        
                                     </div>
                                 </div>
-                                <p className="mb-55">Still not convinced that gaming is good for you? That’s understandable,
-                                    considering concerns
-                                    long raised by parents that
-                                    include
-                                    the treatment of women social gaming, violence in games and gaming addiction. For more
-                                    information, explore the Safer
-                                    Gaming
-                                    Guide from the Family Online Safety Institute. The absolute best recommendation for parents
-                                    worried about game safety or
-                                    that
-                                    your kid is gaming too much: Join your kids on their favorite platform.</p>
+                                </>
+
+                                 )}
+                               
                                 
                             </div>
                         </div>

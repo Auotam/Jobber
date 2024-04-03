@@ -9,7 +9,7 @@ const PortfolioTabSection = () => {
          <div>
       <h3>Privacy Policy</h3>
       <p>
-        At Clay Pot , we are committed to safeguarding the privacy of
+        At Clay Pot Botanical , we are committed to safeguarding the privacy of
         our website visitors and customers. This Privacy Policy outlines how we
         collect, use, disclose, and protect your personal information when you
         visit our website or make a purchase from us.
@@ -97,7 +97,7 @@ const PortfolioTabSection = () => {
 
       <p>
         By using our website, you consent to our Privacy Policy. Thank you for
-        choosing Clay Pot Botanicals.
+        choosing Clay Pot Botanical.
       </p>
     </div>
          </div>

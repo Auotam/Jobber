@@ -39,7 +39,8 @@ const FooterOne = () => {
                                     <li><Link href="/"><a>Home</a></Link></li>
                                     <li><Link href="/about"><a>about</a></Link></li>
                                     <li><Link href="/services"><a>services</a></Link></li>
-                                    <li><Link href="/portfolia"><a>Portfolio</a></Link></li>
+                                    <li><Link href="/contact"><a>Contact</a></Link></li>
+                                    {/* <li><Link href="/portfolia"><a>Portfolio</a></Link></li> */}
                                     
                                     
                                 </ul>
@@ -47,7 +48,7 @@ const FooterOne = () => {
                                 <li><Link href="/team"><a>Our Teams</a></Link></li>
                                 <li><Link href="/privacy-policy"><a>Privacy</a></Link></li>
                                 <li><Link href="/career"><a>Career</a></Link></li>
-                                    <li><Link href="/contact"><a>Contact</a></Link></li>
+                                    
                                     {/* <li><Link href="/contact"><a>refund policy</a></Link></li>
                                     <li><Link href="/contact"><a>Get in touch</a></Link></li>
                                     <li><Link href="/contact"><a>Emergency</a></Link></li>
@@ -77,14 +78,14 @@ const FooterOne = () => {
                                 </div>
                                 <div className="footer-contact">
                                     <ul>
-                                        {/* <li>
+                                        <li>
                                             <div className="single-contact">
                                                 <div className="contact-icon">
                                                     <i className="fas fa-phone"></i>
                                                 </div>
-                                                <p><a href="tel:1-800-700-600">1-800-700-600</a></p>
+                                                <p><a href="tel:+14709483755">+1(470) 948-3755</a></p>
                                             </div>
-                                        </li> */}
+                                        </li>
                                         <li>
                                             <div className="single-contact">
                                                 <div className="contact-icon">
@@ -93,14 +94,14 @@ const FooterOne = () => {
                                                 <p><a href="mailto:info@bdevs-email.com">info@claypotbotanical.com</a></p>
                                             </div>
                                         </li>
-                                        {/* <li>
+                                        <li>
                                             <div className="single-contact">
                                                 <div className="contact-icon">
                                                     <i className="fas fa-map-marked-alt"></i>
                                                 </div>
                                                 <p><a href="#">1135 Bethany Rd Covington, GA 30016</a></p>
                                             </div>
-                                        </li> */}
+                                        </li>
                                     </ul>
                                 </div>
                                 <div className="footer-social">

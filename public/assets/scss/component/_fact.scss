@@ -10,6 +10,7 @@
 .fact-area-bg {
 	background: var(--clr-theme-1);
 }
+.fact-title{ white-space: nowrap;}
 .fact-title {
 	.section-subtitle {
 		color: #84a99c;
@@ -42,6 +43,7 @@
 	p {
 		color: #c5d8d1;
 		margin-bottom: 0;
+		white-space: nowrap;
 	}
 	text-align: center;
 	margin-bottom: 50px;

@@ -7,7 +7,7 @@ const ContactSection = () => {
             <div className="row wow fadeInUp" data-wow-delay=".3s">
                <div className="col-lg-8">
                   <div className="section-title style-2">
-                     <span className="section-subtitle">[ call to action ]</span>
+                     <span className="section-subtitle">[ SEND US A MESSAGE ]</span>
                      <h2 className="section-main-title mb-45">estimate price</h2>
                   </div>
                </div>

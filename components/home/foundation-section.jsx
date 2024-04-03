@@ -1,8 +1,26 @@
 import Link from 'next/link';
-import React from 'react';
+import React, {useState} from 'react';
+import Modal from '../../components/model';
 
 const FoundationSection = () => {
+
+    const [isModalOpen, setIsModalOpen] = useState(false);
+     
+
+    const handleOpenModal = () => {
+      console.log("Opening modal");
+      setIsModalOpen(true);
+    };
+  
+    const handleCloseModal = () => {
+      console.log("Closing modal");
+      setIsModalOpen(false);
+    };
+  
+    console.log("isModalOpen:", isModalOpen);
+
     return (
+        <>
         <section className="foundation-area foundation-area-bg pt-120 pb-60">
             <div className="foundation-bg-shape">
                 <img src="/assets/img/shape/pattern.png" alt=""/>
@@ -25,7 +43,7 @@ const FoundationSection = () => {
                             </p>
                             <div className="founder-meta mt-45">
                                 <div className="founder-info-meta">
-                                <Link href="/about"><a className="fill-btn-rounded">get in touch<i className="fal fa-angle-right"></i></a></Link>
+                                <a onClick={handleOpenModal} className="fill-btn-rounded cursor-pointer">get in touch<i className="fal fa-angle-right"></i></a>
                                     {/* <div className="founder-img">
                                         <img src="/assets/img/team/founder.jpg" alt=""/>
                                     </div> */}
@@ -41,6 +59,9 @@ const FoundationSection = () => {
                 </div>
             </div>
         </section>
+        <Modal isOpen={isModalOpen} onClose={handleCloseModal} />
+        </>
+        
     );
 };
 

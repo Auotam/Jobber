@@ -1,8 +1,24 @@
 import Link from 'next/link';
-import React from 'react';
+import React, {useState} from 'react';
+import Modal from '../../components/model';
 
 const AboutUsSection = () => {
+    const [isModalOpen, setIsModalOpen] = useState(false);
+     
+
+    const handleOpenModal = () => {
+      console.log("Opening modal");
+      setIsModalOpen(true);
+    };
+  
+    const handleCloseModal = () => {
+      console.log("Closing modal");
+      setIsModalOpen(false);
+    };
+  
+    console.log("isModalOpen:", isModalOpen);
     return (
+        <>
         <section className="about-area pt-120 pb-90">
             <div className="container">
                 <div className="row align-items-center wow fadeInUp" data-wow-delay=".3s">
@@ -10,7 +26,7 @@ const AboutUsSection = () => {
                         <div className="about-thumb mb-30">
                             <img src="/assets/img/about/about-thumb.jpeg" alt=""/>
                             <div className="about-thumb-meta">
-                                <p>since from 2000</p>
+                                <p>since from 2019</p>
                             </div>
                         </div>
                     </div>
@@ -26,13 +42,15 @@ const AboutUsSection = () => {
                             <p className="mb-45">Design affects human. It changes the view of life and the self-image. According to
                                 the opinion specialists, a good design is a space.</p>
                             <div className="about-btn">
-                                <Link href="/contact"><a className="fill-btn">get in touch<i className="fal fa-angle-right"></i></a></Link>
+                                <a className="fill-btn" onClick={handleOpenModal}>get in touch<i className="fal fa-angle-right"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <Modal isOpen={isModalOpen} onClose={handleCloseModal} />
+        </>
     );
 };
 

@@ -31,7 +31,7 @@ const ContactMapSection = () => {
                                  <div className="contact-icon">
                                     <i className="fas fa-phone"></i>
                                  </div>
-                                 {/* <p><a href="tel:1-800-700-600">1-800-700-600</a></p> */}
+                                  <p><a href="tel:+1470948-3755">+1(470) 948-3755</a></p>
                               </div>
                            </li>
                            <li>
