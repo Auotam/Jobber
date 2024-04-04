@@ -45,7 +45,7 @@ const FooterOne = () => {
                                     
                                 </ul>
                                 <ul>
-                                <li><Link href="/team"><a>Our Teams</a></Link></li>
+                                <li><Link href="/team"><a>Team</a></Link></li>
                                 <li><Link href="/privacy-policy"><a>Privacy</a></Link></li>
                                 <li><Link href="/career"><a>Career</a></Link></li>
                                     
@@ -83,7 +83,7 @@ const FooterOne = () => {
                                                 <div className="contact-icon">
                                                     <i className="fas fa-phone"></i>
                                                 </div>
-                                                <p><a href="tel:+14709483755">+1(470) 948-3755</a></p>
+                                                <p><a href="tel:+14709483755">+1 (470) 948-3755</a></p>
                                             </div>
                                         </li>
                                         <li>

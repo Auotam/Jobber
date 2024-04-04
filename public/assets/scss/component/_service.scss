@@ -90,6 +90,8 @@
 					color: #bfd8c1;
 				}
 			}
+
+			
 			.service-number {
 				&::before {
 					-webkit-text-stroke-color: var(--clr-common-white);
@@ -552,7 +554,7 @@
 	.service-title {
 		font-size: 20px;
 		text-transform: uppercase;
-		margin-bottom: 10px;
+		margin-bottom: 10px; white-space: nowrap;
 	}
 	.single-service-content p {
 		margin-bottom: 0;
@@ -1065,3 +1067,9 @@
 		
 	}
 }
+
+
+.backgroundGreen { 	background: var(--clr-theme-2) !important; color: #fff !important;}
+.backgroundGreen .service-title { color:#fff;  }
+.backgroundGreen .single-service-content p{ color:#fff;  }
+.backgroundGreen .text-btn{ color:#fff;  }

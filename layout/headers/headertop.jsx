@@ -12,7 +12,7 @@ const HeaderTop = () => {
                                     <i className="fas fa-phone"></i>
                                 </div>
                                  <div className="meta-item-text">
-                                    <p><a href="tel:+14709483755">+1(470) 948-3755</a></p>
+                                    <p><a href="tel:+14709483755">  948-3755</a></p>
                                 </div> 
                             </div>
                             <div className="meta-item">

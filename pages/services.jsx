@@ -1,6 +1,6 @@
 import SEO from '../components/seo';
 import Wrapper from '../layout/wrapper';
-import ServiceMain from '../components/service';
+import ServiceMain from '../components/services';
 
 const index = () => {
   return (

@@ -39,8 +39,8 @@ const HeroSlider = () => {
     return (
         <div className="banner-area banner-area1 pos-rel">
             <div className="banner-meta-link">
-                <h4>Make A Order</h4>
-                <p><Link href="/about"><a>Let’s Talk About Product</a></Link></p>
+                <h4>Get a Quote</h4>
+                <p><Link href="/about"><a>Let's Talk About Your Requirements</a></Link></p>
             </div>
             <div className="swiper-container slider__active">
                 {SliderItem &&

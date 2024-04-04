@@ -12,7 +12,7 @@ const nav_menus_list = [
     hasDropdown: false,
     megamenu: false,
     dropdownItems: [
-      { link: '/service', title: 'Residential' },
+      { link: '/services', title: 'Residential' },
       { link: '/service', title: 'Commercial' },
       
     ]
@@ -26,8 +26,8 @@ const nav_menus_list = [
     hasDropdown: false,
     megamenu: false,
     dropdownItems: [
-      { link: '/service', title: 'Residential' },
-      { link: '/service', title: 'Commercial' },
+      { link: '/services', title: 'Residential' },
+      { link: '/services', title: 'Commercial' },
       
     ]
   },

@@ -13,8 +13,8 @@ const index = () => {
             <HeaderOne />
             <Breadcrumb breadTitle={'expert management'} breadSubtitle={'Provides hassle-free backyard transformation'} breadHome={'Home'} breadMenu={'Team'} />
             <TeamsSection />
-            <TeamIntroSection />
-            <BlogSectionFive />
+            {/* <TeamIntroSection />
+            <BlogSectionFive /> */}
             <FooterOne />
         </main>
     );
