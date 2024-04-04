@@ -26,7 +26,7 @@ const AboutUsSection = () => {
                         <div className="about-thumb mb-30">
                             <img src="/assets/img/about/about-thumb.jpeg" alt=""/>
                             <div className="about-thumb-meta">
-                                <p>since from 2019</p>
+                                
                             </div>
                         </div>
                     </div>
