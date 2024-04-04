@@ -3,6 +3,7 @@ import Wrapper from '../layout/wrapper';
 import HomeMain from '../components/home';
 import HeaderOne from '../layout/headers/header';
 import FooterOne from '../layout/footers/footer';
+import Link from 'next/link';
 
 const index = () => {
   return (
@@ -27,7 +28,7 @@ const index = () => {
 		
 		<p>The page you are looking for not avaible!</p>
 		
-		<a href="/" className="link_404">Go to Home</a>
+		<Link href="/"><a  className="link_404">Go to Home</a></Link>
 	</div>
 		</div>
 		</div>
