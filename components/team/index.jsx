@@ -11,7 +11,7 @@ const index = () => {
     return (
         <main>
             <HeaderOne />
-            <Breadcrumb breadTitle={'expert management'} breadSubtitle={'Provides hassle-free backyard transformation'} breadHome={'Home'} breadMenu={'Team'} />
+            <Breadcrumb breadTitle={'Team'} breadSubtitle={'Provides hassle-free backyard transformation'} breadHome={'Home'} breadMenu={'Team'} />
             <TeamsSection />
             {/* <TeamIntroSection />
             <BlogSectionFive /> */}
