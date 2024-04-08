@@ -3,31 +3,32 @@ import Wrapper from '../layout/wrapper';
 import HomeMain from '../components/home';
 import HeaderOne from '../layout/headers/header';
 import FooterOne from '../layout/footers/footer';
+import Link from 'next/link';
 
 const index = () => {
   return (
     <>
     
 
-    <section class="page_404">
-	<div class="container">
-		<div class="row">	
-		<div class="col-sm-12 ">
-		<div class="col-sm-12 text-center">
-		<div class="four_zero_four_bg">
-			<h1 class="text-center ">404</h1>
+    <section className="page_404">
+	<div className="container">
+		<div className="row">	
+		<div className="col-sm-12 ">
+		<div className="col-sm-12 text-center">
+		<div className="four_zero_four_bg">
+			<h1 className="text-center ">404</h1>
 		
 		
 		</div>
 		
-		<div class="contant_box_404">
-		<h3 class="h2">
-		Look like you're lost
+		<div className="contant_box_404">
+		<h3 className="h2">
+		Page not found
 		</h3>
 		
-		<p>the page you are looking for not avaible!</p>
+		<p>The page you are looking for not avaible!</p>
 		
-		<a href="/" class="link_404">Go to Home</a>
+		<Link href="/"><a  className="link_404">Go to Home</a></Link>
 	</div>
 		</div>
 		</div>

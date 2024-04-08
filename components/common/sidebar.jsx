@@ -90,12 +90,12 @@ const Sidebar = () => {
                         {/* <!-- side-mobile-menu start --> */}
                         <nav className="side-mobile-menu d-block d-xl-none mm-menu">
                             <ul>
-                                <li className={`menu-item-has-children has-droupdown ${home ? 'active' : ''}`}>
+                                <li className={`menu-item-has-children  ${home ? 'active' : ''}`}>
                                     <a onClick={() => handleMenuDropDown('home')}>Home</a >
                                     
                                 </li>
-                                <li><Link href="/service-details/residential">Resident</Link></li>
-                                <li><Link href="/service-details/residential">commercial</Link></li>
+                                <li><Link href="/services/residential">Resident</Link></li>
+                                <li><Link href="/services/residential">commercial</Link></li>
                                 <li><Link href="/about">About</Link></li>
                                 {/* <li className={`menu-item-has-children has-droupdown ${productPages ? 'active' : ''}`}>
                                     <a onClick={() => handleMenuDropDown('product-pages')}>Services</a>
@@ -104,8 +104,8 @@ const Sidebar = () => {
                                         <li><Link href="/service-details">Service Details</Link></li>
                                     </ul>
                                 </li> */}
-                                <li><Link href="/portfolio">Portfolio</Link></li>
-                                <li><Link href="/career">Career</Link></li>
+                                
+                                
                                 
                                 <li> <Link href="/contact">Contact</Link> </li>
                             </ul>
