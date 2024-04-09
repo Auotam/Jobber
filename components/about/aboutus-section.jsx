@@ -34,13 +34,10 @@ const AboutUsSection = () => {
                         <div className="about-content mb-30">
                             <div className="section-title">
                                 <span className="section-subtitle">about us</span>
-                                <h2 className="section-main-title mb-20">an Award Winning gardening studio</h2>
+                                <h2 className="section-main-title mb-20">Premier Garden and Lawn Care Service Provider</h2>
                             </div>
-                            <p className="mb-30">Most gardens consist of a mix of natural and constructed elements, although even
-                                natural gardens are always an inherently artificial creation. Natural elements present
-                                in a garden principally.</p>
-                            <p className="mb-45">Design affects human. It changes the view of life and the self-image. According to
-                                the opinion specialists, a good design is a space.</p>
+                            <p className="mb-30">Welcome to Clay Pot Botanical. We focus on top-quality lawn care and beautiful garden installations to enhance outdoor space. Our dedicated team provides expert lawn maintenance services to keep your yard looking its best throughout the year. Additionally, we offer customized garden installations to create a captivating outdoor setting that reflects your unique style. Let Clay Pot Botanical bring your outdoor vision to life</p>
+                            
                             <div className="about-btn">
                                 <a className="fill-btn" onClick={handleOpenModal}>get in touch<i className="fal fa-angle-right"></i></a>
                             </div>

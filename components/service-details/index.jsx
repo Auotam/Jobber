@@ -1,21 +1,24 @@
 import React from 'react';
-import ServicesList from '../../data/services-data';
 import FooterOne from '../../layout/footers/footer';
 import HeaderOne from '../../layout/headers/header';
-import ServiceDetailsArea from './service-details-area';
+import Breadcrumb from '../common/breadcrumb';
+import BlogSection from '../home/blog-section';
+import ServicesSection from '../services/services-section';
+import ServiceChooseSection from '../services/service-choose-section';
+// import ServiceChooseSection from './service-choose-section';
+// import ServicesSection from '../services-section';
+import ContactFormSection from '../contact/contact-form-section';
 
 
 
-
-
-const index = ({id}) => {
-
-    const item = ServicesList.find(service => service.id === id);
-    
+const index = () => {
     return (
         <main>
             <HeaderOne />
-            {item && <ServiceDetailsArea item={item} />}
+            <Breadcrumb breadTitle={'services'}  breadHome={'Home'} breadMenu={'services'} />
+            <ServicesSection />
+            <ServiceChooseSection />
+            <ContactFormSection />
             <FooterOne />
         </main>
     );

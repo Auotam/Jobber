@@ -83,7 +83,7 @@ const ServiceDetailsArea = ({ item }) => {
                                                 <img src="/assets/img/icon/work-icon3.png" alt="" />
                                             </div>
                                             <h4>READY TO PLANT</h4>
-                                            <p>Careful installation of cultivars</p>
+                                            <p>Careful installation of cultivars.</p>
                                         </div>
 
                                         

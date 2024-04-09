@@ -32,8 +32,8 @@ const HeaderTop = () => {
                                     <i className="fas fa-clock"></i>
                                 </div>
                                 <div className="meta-item-text">
-                                    <p>Mon - Fri: 9:00 - 19:00<span className="d-none d-xl-inline-block">/ Closed on 
-                                        <strong> Weekends</strong></span>
+                                    <p>Mon - Fri: 9:00 - 18:00 <span className="d-none d-xl-inline-block">Sat-Sun 
+                                        <strong> 10:00/11:00 - 15:00</strong></span>
                                     </p>
                                 </div>
                             </div>

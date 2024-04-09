@@ -14,21 +14,21 @@ const WorkSection = () => {
             id: 2,
             workImg : '/assets/img/icon/work-icon2.png',
             workTitle : 'Soil Preparation',
-            workDesc : 'Balance Your soil for maximum plant potential',
+            workDesc : 'Balance Your soil for maximum plant potential.',
             workClass : 'process-flow-border',
         },
         {
             id: 3,
             workImg : '/assets/img/icon/work-icon3.png',
             workTitle : 'Ready to Plant',
-            workDesc : 'Careful installation of cultivars',
+            workDesc : 'Careful installation of cultivars.',
             workClass : 'process-flow-border',
         },
         {
             id: 4,
             workImg : '/assets/img/icon/work-icon4.png',
             workTitle : 'Regular Maintenance',
-            workDesc : 'Regular monitoring to ensure plant health',
+            workDesc : 'Regular monitoring to ensure plant health.',
             workClass : 'process-flow-border d-none',
         }
     ]
