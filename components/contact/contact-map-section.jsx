@@ -61,20 +61,20 @@ const ContactMapSection = () => {
                         <ul>
                            <li>
                               <div className="info-date">
-                                 <span>Sat - mon</span>
-                                 <span>10:00 am - 8:00 pm</span>
+                                 <span>Mon - Fri</span>
+                                 <span>09:00 am - 6:00 pm</span>
                               </div>
                            </li>
                            <li>
                               <div className="info-date">
-                                 <span>mon - thu</span>
-                                 <span>11:00 am - 6:00 pm</span>
+                                 <span>Sat</span>
+                                 <span>10:00 am - 3:00 pm</span>
                               </div>
                            </li>
                            <li>
                               <div className="info-date">
-                                 <span>friday</span>
-                                 <span>off-day</span>
+                                 <span>Sunday</span>
+                                 <span>11:00 am - 3:00 pm</span>
                               </div>
                            </li>
                         </ul>
