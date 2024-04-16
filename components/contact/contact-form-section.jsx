@@ -1,9 +1,35 @@
-import React from 'react';
+import React, {useState} from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
-const 
+const ContactFormSection = () => {
+    const [query, setQuery] = useState('');
+    const [email, setEmail] = useState('');
+    const [name, setName] = useState('');
 
+    const handleSubmit = async (event) => {
+        event.preventDefault();
 
-ContactFormSection = () => {
+        const response = await fetch('/api/sendquery', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ name, email, query }),
+        });
+
+        if (response.ok) {
+            // If the API request is successful
+            toast.success('you Query sent successfully!');
+            // Reset form
+            setName('');
+            setEmail('');
+            setQuery('');
+        } else {
+            // If the API request fails
+            toast.error('your Query is not send.');
+        }
+    };
     
     return (
         <section className="contact-area pb-40">
@@ -18,21 +44,26 @@ ContactFormSection = () => {
                                         For Next Project</h2>
                                 </div>
                                 <div className="contact-form">
-                                    <form action="#">
+                                    <form onSubmit={handleSubmit}>
                                         <div className="row">
                                             <div className="col-sm-6">
                                                 <div className="single-input-field field-name">
-                                                    <input type="text" placeholder="Enter full name"/>
+                                                    <input type="text" onChange={(e) => setName(e.target.value)} placeholder="Enter full name" required/>
                                                 </div>
                                             </div>
                                             <div className="col-sm-6">
                                                 <div className="single-input-field field-email">
-                                                    <input type="text" placeholder="email address"/>
+                                                    <input type="text" placeholder="email address" onChange={(e) => setEmail(e.target.value)} required/>
+                                                    
                                                 </div>
                                             </div>
                                             <div className="col-sm-12">
                                                 <div className="single-input-field field-message">
-                                                    <textarea name="message" id="message" placeholder="message"></textarea>
+                                                <textarea
+                    value={query}
+                    onChange={(e) => setQuery(e.target.value)}
+                    required
+                />
                                                 </div>
                                             </div>
                                         </div>
