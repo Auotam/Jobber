@@ -18,22 +18,22 @@ export default async function handler(req, res) {
         return res.status(400).json({ error: 'Invalid email format.' });
     }
     const transporter = nodemailer.createTransport({
-        service: 'Gmail',
+        service: 'gmail',
         auth: {
-            user: process.env.EMAIL_USER, 
-            pass: process.env.EMAIL_PASS, 
+            user: 'delivery@auotam.com', 
+            pass: 'Auotam@2233456', 
         },
     });
     const recipientMailOptions = {
-        from: process.env.EMAIL_USER,
-        to: process.env.RECIPIENT_EMAIL,
+        from: 'delivery@auotam.com',
+        to: 'shivams905@gmail.com',
         subject: 'New Query from Website',
         text: `Name: ${name}\nEmail: ${email}\nQuery: ${query}`,
     };
 
     
     const thankYouMailOptions = {
-        from: process.env.EMAIL_USER,
+        from: 'delivery@auotam.com',
         to: email,
         subject: 'Thank you for your query!',
         text: `Dear ${name},\n\nThank you for reaching out to us. We have received your query and will get back to you as soon as possible.\n\nBest regards,\n[Your Company Name]`,
