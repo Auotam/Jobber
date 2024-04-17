@@ -10,7 +10,7 @@ export default async function handler(req, res) {
 
     
     const transporter = nodemailer.createTransport({
-        service: 'gmail', 
+        service: 'Gmail', 
         auth: {
             user: 'delivery@auotam.com', 
             pass: 'Auotam@2233456', 
