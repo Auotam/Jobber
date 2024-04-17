@@ -73,10 +73,7 @@ const ContactFormSection = () => {
                                     <h2 className="section-main-title mb-35">Send Us A Message For Next Project</h2>
                                 </div>
 
-                                {isSubmitted ? (
-                                    <p>Thank you for your message! We will get back to you soon.</p>
-                                ) : (
-                                    <div className="contact-form">
+                                <div className="contact-form">
                                         <form onSubmit={handleSubmit}>
                                             <div className="row">
                                                 <div className="col-sm-6">
@@ -123,7 +120,6 @@ const ContactFormSection = () => {
                                             </div>
                                         </form>
                                     </div>
-                                )}
                             </div>
                             <div className="contact-wrapper-img">
                                 <img src="/assets/img/about/contact-img.jpg" alt="Contact Image" />
@@ -132,6 +128,8 @@ const ContactFormSection = () => {
                     </div>
                 </div>
             </div>
+
+            
         </section>
     );
 };
