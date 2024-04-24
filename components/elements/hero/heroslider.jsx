@@ -8,6 +8,13 @@ import 'swiper/css/bundle';
 
 const HeroSlider = () => {
 
+    const openJobberForm = () => {
+        
+        // Open a new window for the Jobber form
+        window.open('https://clienthub.getjobber.com/client_hubs/57afc737-74dd-43e4-90cc-fb6f589ec820/public/work_request/new?source=social_media', '_blank');
+      };
+
+
     const SliderItem = [
         {
             id: 1,
@@ -95,7 +102,7 @@ const HeroSlider = () => {
                                                                 <span>{item.sliderSubtitle}</span>
                                                             </div>
                                                             <div className="banner-btn" data-animation="fadeInUp" data-delay=".7s">
-                                                                <Link href="/contact"><a className="fill-btn-rounded">{item.sliderbtn}</a></Link>
+                                                                <a onClick={openJobberForm} className="fill-btn-rounded">{item.sliderbtn}</a>
                                                                 <Link href="/about"><a className="border-btn-rounded">{item.sliderbtn2}</a></Link>
                                                             </div>
                                                         </div>

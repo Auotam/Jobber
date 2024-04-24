@@ -17,6 +17,13 @@ const HeaderOne = () => {
     //for mobile menu
     const { setShowSidebar } = useGlobalContext();
 
+    const openJobberForm = () => {
+        
+        // Open a new window for the Jobber form
+        window.open('https://clienthub.getjobber.com/client_hubs/57afc737-74dd-43e4-90cc-fb6f589ec820/public/work_request/new?source=social_media', '_blank');
+      };
+    
+
 
     
     // Sticky Menu Area start
@@ -71,7 +78,7 @@ const HeaderOne = () => {
                                     </div>
                                     <div className="header-main-right header-main-right-header1">
                                         {/* <span onClick={()=> setOpenCart(true)} className="action-btn cart-btn d-inline-flex action-item-cart"><i className="fas fa-shopping-basket"></i><span className='product-quantity-circle-cart'>({quantity})</span></span> */}
-                                        <a className="border-btn-rounded d-none d-lg-inline-flex" onClick={handleOpenModal} ><i className="fal fa-farm"></i><span>Get a Quote</span></a>
+                                        <a className="border-btn-rounded d-none d-lg-inline-flex" onClick={openJobberForm} ><i className="fal fa-farm"></i><span>Get a Quote</span></a>
                                         <div className="menu-bar d-xl-none">
                                             <span className="side-toggle" onClick={() => setShowSidebar(true)}>
                                                 <div className="bar-icon">

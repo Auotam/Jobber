@@ -4,6 +4,11 @@ import ServicesList from '../../data/services-data';
 import Modal from '../../components/model';
 
 const ServiceSection = () => {
+    const openJobberForm = () => {
+        
+        // Open a new window for the Jobber form
+        window.open('https://clienthub.getjobber.com/client_hubs/57afc737-74dd-43e4-90cc-fb6f589ec820/public/work_request/new?source=social_media', '_blank');
+      };
 
     const [isModalOpen, setIsModalOpen] = useState(false);
      
@@ -52,7 +57,7 @@ const ServiceSection = () => {
                      <img src="/assets/img/shape/pattern-1270.png" alt="shape-img"/>
                   </div>
                   <h3>GIVE YOUR LAWN THE VIP TREATMENT.</h3>
-                     <a className="fill-btn-rounded" onClick={handleOpenModal} ><i className="fal fa-farm"></i><span>Get a Quote</span></a>
+                     <a className="fill-btn-rounded" onClick={openJobberForm} ><i className="fal fa-farm"></i><span>Get a Quote</span></a>
                      {/* <Link href="/contact"><a className="fill-btn-rounded"><i className="fal fa-farm"></i><span>Get a Quote</span></a></Link> */}
                </div>
             </div>

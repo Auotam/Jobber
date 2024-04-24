@@ -5,7 +5,7 @@ import Career from '../components/career/';
 const index = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={'Portfolio'} />
+      <SEO pageTitle={'Career'} />
       <Career />
     </Wrapper>
   );
